@@ -1,6 +1,6 @@
 # Adapta-Gtk-Theme
 
-Modified version of <a href="https://github.com/ivankra/adapta-gtk-theme-colorpack">Adapta-gtk-theme-colorpack</a>; created by <a href="https://github.com/ivankra">ivankra</a>; 
+Modified version of <a href="https://github.com/ivankra/adapta-gtk-theme-colorpack">Adapta-gtk-theme-colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a> 
 
 Bookmarks have been added in the panel that shows which applications are open, option not in Cinnamon!
 
