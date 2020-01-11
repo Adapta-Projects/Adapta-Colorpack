@@ -13,3 +13,9 @@ The diff command was used to know which commands were missing! A comparison was 
 # Instalation
 
 Put all files in /usr/share/themes (my preference) or in a folder of your own!
+
+# Images
+
+![image](Images/image.png)
+
+![image](Images/image1.png)
