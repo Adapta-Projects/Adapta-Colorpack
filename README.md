@@ -6,7 +6,7 @@ Bookmarks have been added to the panel that shows which apps are open, this opti
 
 Soon, I finish the other versions of the theme, in this case, the other colors!
 
-This version has no the Eta version!
+This version no have the Eta version!
 
 # Instalation
 
