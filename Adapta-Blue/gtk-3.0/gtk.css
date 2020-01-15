@@ -76,7 +76,7 @@ GtkTextView, GtkTextView.view { background-image: none; transition: none; }
 
 @keyframes spinner { to { -gtk-icon-transform: rotate(1turn); } }
 
-.spinner { background-color: blue; background-image: none; -gtk-icon-source: -gtk-icontheme("process-working-symbolic"); color: #459c95; opacity: 0; }
+.spinner { background-color: blue; background-image: none; -gtk-icon-source: -gtk-icontheme("process-working-symbolic"); color: #2196F3; opacity: 0; }
 
 .spinner:active { opacity: 1.0; animation: spinner 1s linear infinite; }
 
@@ -391,13 +391,13 @@ GtkColorButton.button:insensitive, GtkColorButton.button GtkColorSwatch:insensit
 
 GtkButtonBox > .button { background-color: transparent; color: rgba(69, 156, 149, 0.87); font-weight: 700; }
 
-GtkButtonBox > .button:hover { background-color: transparent; color: #459c95; }
+GtkButtonBox > .button:hover { background-color: transparent; color: #2196F3; }
 
-GtkButtonBox > .button:active { background-color: transparent; color: #459c95; }
+GtkButtonBox > .button:active { background-color: transparent; color: #2196F3; }
 
 GtkButtonBox > .button:insensitive { background-color: transparent; box-shadow: none; }
 
-GtkButtonBox > .button:checked { background-color: transparent; color: #459c95; }
+GtkButtonBox > .button:checked { background-color: transparent; color: #2196F3; }
 
 GtkButtonBox > .button:checked:insensitive { background-color: transparent; color: rgba(69, 156, 149, 0.4); }
 
@@ -1063,7 +1063,7 @@ GtkSwitch.slider:active:hover { background-image: linear-gradient(to bottom, rgb
 
 GtkSwitch.slider:insensitive, GtkSwitch.slider:insensitive:active { background-color: #daddde; background-image: none; box-shadow: none; }
 
-.list-row:selected GtkSwitch.trough, .tweak-category:selected GtkSwitch.trough { background-color: #8ae0eb; }
+.list-row:selected GtkSwitch.trough, .tweak-category:selected GtkSwitch.trough { background-color: #2196F3; }
 
 .list-row:selected GtkSwitch.trough:active, .tweak-category:selected GtkSwitch.trough:active { background-color: #FFFFFF; }
 
