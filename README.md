@@ -1,4 +1,4 @@
-# Adapta-Gtk-Theme
+# Adapta-Colorpack
 
 Modified version of <a href="https://github.com/ivankra/adapta-gtk-theme-colorpack">Adapta-gtk-theme-colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a> 
 
