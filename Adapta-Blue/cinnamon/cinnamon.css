@@ -41,7 +41,7 @@ stage { font-size: 10pt; color: #263238; font-family: Roboto, Sans-Serif; font-w
 
 .notification StEntry { border-color: transparent; background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 0 -1px rgba(207, 216, 220, 0.2); min-height: 1.2em; padding: 7px 8px 8px; border-radius: 0; border-width: 0; color: #CFD8DC; caret-size: 1px; caret-color: #CFD8DC; selection-background-color: #2196F3; selected-color: #FFFFFF; }
 
-.notification StEntry:focus { border-color: transparent; background-color: rgba(0, 0, 0, 0.01); color: #2196F3; caret-color: #FFFFFF; box-shadow: inset 0 -2px #2196F3; }
+.notification StEntry:focus { border-color: transparent; background-color: rgba(0, 0, 0, 0.01); color: #FFFFFF; caret-color: #FFFFFF; box-shadow: inset 0 -2px #2196F3; }
 
 .notification StEntry:insensitive { border-color: transparent; background-color: rgba(0, 0, 0, 0.01); color: rgba(207, 216, 220, 0.28); box-shadow: inset 0 -1px rgba(207, 216, 220, 0.056); }
 
@@ -53,7 +53,7 @@ StScrollBar { padding: 0; }
 
 StScrollView StScrollBar { min-width: 0.45em; min-height: 0.45em; }
 
-StScrollBar StBin#trough { margin: 0; border-radius: 0; background-color: rg; }
+StScrollBar StBin#trough { margin: 0; border-radius: 0; background-color: #FFFFFF; }
 
 StScrollBar StButton#vhandle, StScrollBar StButton#hhandle { margin: 0; border-radius: 0; background-color: rgba(38, 50, 56, 0.297); }
 

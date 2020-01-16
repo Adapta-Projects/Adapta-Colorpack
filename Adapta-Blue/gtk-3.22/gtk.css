@@ -67,7 +67,7 @@ headerbar:backdrop > *, .csd headerbar:not(.default-decoration) button.titlebutt
 
 .gtkstyle-fallback:selected { background-color: #2196F3; color: #FFFFFF; }
 
-iconview, .view { background-color: rgba(33, 150, 243, 0.5); color: #263238; }
+iconview, .view { background-color: #FFFFFF; color: #263238; }
 
 iconview:hover, iconview:active, iconview:selected, .view:hover, .view:active, .view:selected { border-radius: 2px; -gtk-outline-radius: 2px; }
 
