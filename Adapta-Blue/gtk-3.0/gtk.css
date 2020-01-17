@@ -82,7 +82,7 @@ GtkTextView, GtkTextView.view { background-image: none; transition: none; }
 
 .spinner:active:backdrop { opacity: 1.0; }
 
-.spinner:insensitive { color: rgba(69, 156, 149, 0.4); }
+.spinner:insensitive { color: rgba(33, 150, 243, 0.5); }
 
 .spinner:backdrop { opacity: 0; }
 
@@ -399,7 +399,7 @@ GtkButtonBox > .button:insensitive { background-color: transparent; box-shadow: 
 
 GtkButtonBox > .button:checked { background-color: transparent; color: #2196F3; }
 
-GtkButtonBox > .button:checked:insensitive { background-color: transparent; color: rgba(69, 156, 149, 0.4); }
+GtkButtonBox > .button:checked:insensitive { background-color: transparent; color: rgba(33, 150, 243, 0.5); }
 
 *:link, .button:link, .button:visited { color: #2196F3; }
 
@@ -483,7 +483,7 @@ GtkPaned .toolbar:not(.vertical):not(.inline-toolbar), GtkEventBox .toolbar:not(
 
 .osd .toolbar .button, .toolbar.osd .button, .app-notification .button, .app-notification.frame .button, .app-notification.flat .button, GeditViewFrame .gedit-search-slider .button { background-color: transparent; }
 
-.osd .toolbar .button:not(:active):not(:insensitive):not(hover), .toolbar.osd .button:not(:active):not(:insensitive):not(hover), .app-notification .button:not(:active):not(:insensitive):not(hover), .app-notification.frame .button:not(:active):not(:insensitive):not(hover), .app-notification.flat .button:not(:active):not(:insensitive):not(hover), GeditViewFrame .gedit-search-slider .button:not(:active):not(:insensitive):not(hover) { background-color: transparent; color: rgba(33, 150, 243, 0.5); }
+.osd .toolbar .button:not(:active):not(:insensitive):not(hover), .toolbar.osd .button:not(:active):not(:insensitive):not(hover), .app-notification .button:not(:active):not(:insensitive):not(hover), .app-notification.frame .button:not(:active):not(:insensitive):not(hover), .app-notification.flat .button:not(:active):not(:insensitive):not(hover), GeditViewFrame .gedit-search-slider .button:not(:active):not(:insensitive):not(hover) { background-color: transparent; color: rgba(33, 150, 243, 1); }
 
 .osd .toolbar .button:hover, .toolbar.osd .button:hover, .app-notification .button:hover, .app-notification.frame .button:hover, .app-notification.flat .button:hover, GeditViewFrame .gedit-search-slider .button:hover { background-color: transparent; color: #2196F3; }
 
@@ -779,7 +779,7 @@ GtkTreeView.view.progressbar { border-color: #2196F3; }
 
 GtkTreeView.view.progressbar:selected { border-color: currentColor; }
 
-GtkTreeView.view.trough { border-color: rgba(77, 182, 172, 0.2); }
+GtkTreeView.view.trough { border-color: rgba(33, 150, 243, 0.5); }
 
 GtkTreeView.view.trough:selected { border-color: alpha(currentColor, 0.2); }
 
@@ -1333,9 +1333,9 @@ GtkProgressBar { -GtkProgressBar-min-horizontal-bar-height: 4; -GtkProgressBar-m
 
 GtkProgressBar.osd { -GtkProgressBar-xspacing: 0; -GtkProgressBar-yspacing: 0; -GtkProgressBar-min-horizontal-bar-height: 4; }
 
-GtkProgressBar.trough { border-radius: 0; background-color: rgba(77, 182, 172, 0.2); }
+GtkProgressBar.trough { border-radius: 0; background-color: rgba(33, 150, 243, 0.5); }
 
-GtkProgressBar.trough.osd { border-style: none; box-shadow: none; background-color: rgba(77, 182, 172, 0.2); }
+GtkProgressBar.trough.osd { border-style: none; box-shadow: none; background-color: rgba(33, 150, 243, 0.5); }
 
 .progressbar { border-radius: 0; background-color: #2196F3; }
 

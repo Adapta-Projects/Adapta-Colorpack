@@ -56,7 +56,7 @@ GtkAssistant .sidebar .label.highlight { color: #2196F3; }
 
 GtkAssistant .header-bar .button.flat:not(:last-child) { background-color: #2196F3; color: rgba(255, 255, 255, 0.87); }
 
-GtkAssistant .header-bar .button.flat:not(:last-child):hover { color: #FFFFFF; }
+GtkAssistant .header-bar .button.flat:not(:last-child):hover { color: rg; }
 
 GtkAssistant .header-bar .button.flat:not(:last-child):active { background-color: #2196F3; color: #FFFFFF; }
 
@@ -1671,7 +1671,7 @@ GtkInfoBar, NautilusTrashBar { padding: 0.4em; border-width: 0 0 1px; border-sty
 
 .info .button.flat:insensitive, .question .button.flat:insensitive, .warning .button.flat:insensitive, .error .button.flat:insensitive { color: rgba(38, 50, 56, 0.28); }
 
-.info .label:selected, .info .label:selected:focus, .info .label:selected:hover, .question .label:selected, .question .label:selected:focus, .question .label:selected:hover, .warning .label:selected, .warning .label:selected:focus, .warning .label:selected:hover, .error .label:selected, .error .label:selected:focus, .error .label:selected:hover { background-color: #008fa1; }
+.info .label:selected, .info .label:selected:focus, .info .label:selected:hover, .question .label:selected, .question .label:selected:focus, .question .label:selected:hover, .warning .label:selected, .warning .label:selected:focus, .warning .label:selected:hover, .error .label:selected, .error .label:selected:focus, .error .label:selected:hover { background-color: #2196F3; }
 
 .info GtkProgressBar.trough, .question GtkProgressBar.trough, .warning GtkProgressBar.trough, .error GtkProgressBar.trough { background-color: rgba(255, 255, 255, 0.2); }
 
@@ -2418,6 +2418,7 @@ GtkWindow > GtkBox.vertical > GtkBox.horizontal > GtkAlignment { background-colo
 .background:not(.csd) > GtkBox.vertical > GtkScrolledWindow .toolbar { box-shadow: none; }
 
 .background:not(.csd):not(.ssd):not(.solid-csd) > GtkBox.vertical > SynapseGuiSelectionContainer SynapseGuiMatchListView:selected, .background:not(.csd):not(.ssd):not(.solid-csd) > GtkBox.vertical > SynapseGuiSpecificMatchList GtkWidget:selected { color: #FFFFFF; background-color: #2196F3; }
+
 
 @define-color theme_fg_color #CFD8DC;
 @define-color theme_inverted_fg_color #CFD8DC;
