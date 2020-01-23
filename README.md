@@ -1,6 +1,6 @@
 # Adapta-Colorpack
 
-Modified version of <a href="https://github.com/ivankra/adapta-gtk-theme-colorpack">Adapta-gtk-theme-colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a> 
+Modified version of <a href="https://github.com/ivankra/adapta-gtk-theme-colorpack">Adapta-gtk-theme-colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a>
 
 Bookmarks have been added to the panel that shows which apps are open, this option has been added in Cinnamon!
 
@@ -19,3 +19,5 @@ Put all files in /usr/share/themes (my preference) or in a folder of your own!
 ![image](Images/image1.png)
 
 ![image](Images/image2.png)
+
+![image](Images/image3.png)
