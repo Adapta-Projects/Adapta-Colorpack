@@ -123,8 +123,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .popup-menu-icon, .menu-icon { icon-size: 16px; }
 
-.popup-menu-boxpointer { -arrow-border-radius: 0; -arrow-background-color: transparent; -arrow-border-width: 0; -arrow-border-color: transparent; -arrow-base: 0; -arrow-rise: 0; -arrow-box-shadow: 0 0 transparent; margin: 0.4em 0.5em 0.5em; border-radius: 2px; border-top: 1px solid #29353b; background-color: #28343a; box-shadow: 0 4.5px 5.5px rgba(0, 0, 0, 0.38); }
-
+.popup-menu-boxpointer { -arrow-border-radius: 0; -arrow-background-color: transparent; -arrow-border-width: 0; -arrow-border-color: transparent; -arrow-base: 0; -arrow-rise: 0; -arrow-box-shadow: 0 0 transparent; margin: 0.4em 0.5em 0.5em; border-radius: 2px; border-top: 1px solid #FFFFFF; background-color: #fdfdfe; box-shadow: 0 4.5px 5.5px rgba(0, 0, 0, 0.38); }
 .popup-combo-menu { padding: 1em; border: 1px solid rgba(0, 0, 0, 0.13); border-radius: 2px; color: #CFD8DC; background-color: rgba(34, 45, 50, 0.9); }
 
 .popup-combobox-item { spacing: 1em; }
