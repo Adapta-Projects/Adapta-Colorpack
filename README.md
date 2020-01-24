@@ -8,6 +8,8 @@ Soon, I finish the other versions of the theme, in this case, the other colors!
 
 This version no have the Eta version!
 
+For users who do not use metacity WM, use the original Adapta window buttons, it was not possible to harmonize with the design of the metacity window buttons on gtk-3.0 and gtk-3.22!
+
 # Instalation
 
 Put all files in /usr/share/themes (my preference) or in a folder of your own!
