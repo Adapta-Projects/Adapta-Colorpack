@@ -12,11 +12,11 @@ For users that not use use metacity WM, use the original Adapta window buttons, 
 
 Available colors (in light and nokto versions):
 
--Blue
--Bluegrey
--Deeporange
--Cyan
--Amber
+    - Blue
+    - Bluegrey
+    - Deeporange
+    - Cyan
+    - Amber
 
 # Instalation
 
