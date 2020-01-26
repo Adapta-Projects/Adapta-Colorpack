@@ -10,6 +10,14 @@ This version not have the Eta version!
 
 For users that not use use metacity WM, use the original Adapta window buttons, it was not possible to harmonize with the design of the metacity window buttons on gtk-3.0 and gtk-3.22!
 
+Available colors (in light and nokto versions):
+
+-Blue
+-Bluegrey
+-Deeporange
+-Cyan
+-Amber
+
 # Instalation
 
 For Debian and Ubuntu users, use the deb file in <a href="https://github.com/Joshaby/Adapta-Colorpack/releases">Adapta Releases</a>, otherwise, run the Install.sh file!
