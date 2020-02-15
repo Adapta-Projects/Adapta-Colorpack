@@ -2,13 +2,15 @@
 
 Modified version of <a href="https://github.com/ivankra/adapta-gtk-theme-colorpack">Adapta-gtk-theme-colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a>
 
-Indicator have been added to the panel that shows which apps are open, this option has been added in Cinnamon, and, corrected parts with dark colors in chromium, in light themes!
+News:
+
+    - Open app indicators have been added to the cinnamon dashboard
+    - The parts were corrected with dark chrome colors, in light themes, such as the close tab button and create a new tab
+    - Some icons of the gtk-2.0, gtk-3.0 and gtk-3.22 interfaces are with selection colors according to the theme
 
 Soon, I finish the other versions of the theme, in this case, the other colors!
 
 This version not have the Eta version!
-
-For users that not use use metacity WM, use the original Adapta window buttons, it was not possible to harmonize with the design of the metacity window buttons on gtk-3.0 and gtk-3.22!
 
 Available colors (in light and nokto versions):
 
