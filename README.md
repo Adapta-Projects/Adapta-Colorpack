@@ -2,7 +2,7 @@
 
 Modified version of <a href="https://github.com/ivankra/adapta-gtk-theme-colorpack">Adapta-gtk-theme-colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a>
 
-News:
+Modifications:
 
     - Open app indicators have been added to the cinnamon dashboard
     - The parts were corrected with dark chrome colors, in light themes, such as the close tab button and create a new tab
