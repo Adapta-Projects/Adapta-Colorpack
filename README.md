@@ -8,10 +8,6 @@ Modifications:
     - The parts were corrected with dark chrome colors, in light themes, such as the close tab button and create a new tab
     - Some icons of the gtk-2.0, gtk-3.0 and gtk-3.22 interfaces are with selection colors according to the theme
 
-Soon, I finish the other versions of the theme, in this case, the other colors!
-
-This version not have the Eta version!
-
 Available colors (in light and nokto versions):
 
     - Blue
