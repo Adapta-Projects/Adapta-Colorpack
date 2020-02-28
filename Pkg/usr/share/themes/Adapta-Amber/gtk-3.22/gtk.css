@@ -2734,7 +2734,7 @@ wnck-pager { background-color: transparent; color: #798084; box-shadow: inset 0 
 
 wnck-pager:hover { background-color: alpha(currentColor, 0.12); color: #CFD8DC; box-shadow: inset 0 0 0 1px alpha(currentColor, 0.2); }
 
-wnck-pager:selected { background-color: rgba(255, 193, 7, 0.8); color: #CFD8DC; box-shadow: inset 0 0 0 1px #FFC107; }
+wnck-pager:selected { background-color: rgba(51, 41, 11, 0.8); color: #CFD8DC; box-shadow: inset 0 0 0 1px #FFC107; }
 
 na-tray-applet { -NaTrayApplet-icon-padding: 2px; }
 
