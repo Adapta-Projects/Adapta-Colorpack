@@ -2,13 +2,15 @@
 
 Modified version of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta-gtk-theme-colorpack</a> created by <a href="https://github.com/adapta-project">Adapta Project</a>
 
-This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta Colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a>, the objective of this theme is the correction of missing things Ivankra version!
+This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta Colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a>, the main objective of this theme is the correction of missing things in Ivankra version!
 
-## Modifications in relation of Ivanka version
+## Modifications in relation of Ivanka and stock version
 
  - Open app indicators have been added to the cinnamon dashboard
  - The parts were corrected with dark chromium colors, in light themes, such as the close tab button and create a new tab
  - Some icons of the gtk-2.0, gtk-3.0 and gtk-3.22 interfaces are with selection colors according to the theme
+ - Standardization of white and dark tones in the theme!
+ - The color of the selection in cinnamon has a strong tone, in the menu, with selection of favorites, categories and apps, and, in the panel, with the selection of instances of apps!
 
 ## Available colors (in light and nokto versions)
 
