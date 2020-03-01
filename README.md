@@ -1,6 +1,6 @@
 # Adapta Colorpack
 
-Modified version of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta-gtk-theme-colorpack</a> created by <a href="https://github.com/adapta-project">Adapta Project</a>
+Modified version of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta Theme</a> created by <a href="https://github.com/adapta-project">Adapta Project</a>
 
 This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta Colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a>, the main objective of this theme is the correction of missing things in Ivankra version!
 
