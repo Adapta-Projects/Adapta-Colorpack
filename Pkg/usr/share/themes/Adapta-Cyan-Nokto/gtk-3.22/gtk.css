@@ -1,5 +1,6 @@
 /* COLOR IN RGBA rgba(0, 188, 212, 0.8) */
 /* COLOR IN HTML #00BCD4*/
+/* BACKGROUND COLOR IN HTML #263238*/
 @keyframes ripple_effect { 0% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.12) 0%, transparent 0%), image(alpha(currentColor, 0)); }
   66% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.12) 100%, transparent 0%), image(alpha(currentColor, 0.12)); }
   100% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.12) 100%, transparent 0%), image(alpha(currentColor, 0)); } }
