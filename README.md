@@ -11,7 +11,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - Some icons of the gtk-2.0, gtk-3.0 and gtk-3.22 interfaces are with selection colors according to the theme
  - Standardization of white and dark tones in the theme!
  - The color of the selection in cinnamon has a strong tone, in the menu, with selection of favorites, categories and apps, and, in the panel, with the selection of instances of apps!
- - New visual for close button in gtk-3.0, gtk-3.22 and metacity! (in progess)
+ - New visual for close button in gtk-3.0, gtk-3.22 and metacity!
 
 ## Available colors (in light and nokto versions)
 
