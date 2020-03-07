@@ -1,4 +1,4 @@
-/* This file is part of adapta-gtk-theme Copyright (C) 2016-2018 Tista <tista.gma500@gmail.com> This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. */
+
 #workspacestodockTriggerSpacer, #workspacestodockContainerWrapper, #workspacestodockContainer { background-color: rgba(19, 25, 28, 0); }
 
 #workspacestodockDock { padding: 0; }
@@ -129,11 +129,11 @@
 
 .workspacestodock-caption-number { height: 20px; min-width: 7px; padding: 0 7px; border-radius: 100px; color: rgba(207, 216, 220, 0.54); background-color: #222d32; font-size: 12px; font-weight: 700; text-align: center; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28); }
 
-.workspacestodock-caption-number-current { color: #81c4bf; box-shadow: 0 2.5px 4.5px rgba(0, 0, 0, 0.34); }
+.workspacestodock-caption-number-current { color: #53c7d7; box-shadow: 0 2.5px 4.5px rgba(0, 0, 0, 0.34); }
 
 .workspacestodock-caption-name { height: 20px; min-width: 7px; padding: 0 7px; border-radius: 2px; color: rgba(207, 216, 220, 0.54); background-color: #222d32; font-size: 12px; font-weight: 700; text-align: center; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28); }
 
-.workspacestodock-caption-name-current { color: #81c4bf; box-shadow: 0 2.5px 4.5px rgba(0, 0, 0, 0.34); }
+.workspacestodock-caption-name-current { color: #53c7d7; box-shadow: 0 2.5px 4.5px rgba(0, 0, 0, 0.34); }
 
 .workspacestodock-caption-windowcount { min-width: 7px; padding: 0 7px; border: none; color: rgba(207, 216, 220, 0.54); background-color: transparent; font-size: 12px; font-weight: 700; text-align: center; }
 
