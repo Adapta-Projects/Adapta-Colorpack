@@ -1805,85 +1805,201 @@ GtkScaleButton.button.text-button, GtkVolumeButton.button.text-button { border-r
 
 .window-frame.solid-csd { border-radius: 2px 2px 0 0; margin: -1px; background-color: #263238; border: none; box-shadow: none; }
 
-.csd .header-bar .button.titlebutton.close:backdrop GtkImage, .csd .header-bar .button.titlebutton.minimize:backdrop GtkImage, .csd .header-bar .button.titlebutton.maximize:backdrop GtkImage, .csd .header-bar.selection-mode .button.titlebutton.close:backdrop GtkImage, .csd .header-bar.selection-mode .button.titlebutton.minimize:backdrop GtkImage, .csd .header-bar.selection-mode .button.titlebutton.maximize:backdrop GtkImage, .csd .titlebar .button.titlebutton.close:backdrop GtkImage, .csd .titlebar .button.titlebutton.minimize:backdrop GtkImage, .csd .titlebar .button.titlebutton.maximize:backdrop GtkImage, .csd .titlebar.selection-mode .button.titlebutton.close:backdrop GtkImage, .csd .titlebar.selection-mode .button.titlebutton.minimize:backdrop GtkImage, .csd .titlebar.selection-mode .button.titlebutton.maximize:backdrop GtkImage { opacity: 1.0; }
+headerbar button.titlebutton.close, .csd headerbar button.titlebutton.close, .solid-csd headerbar button.titlebutton.close, headerbar.default-decoration button.titlebutton.close, .titlebar button.titlebutton.close, headerbar button.titlebutton.maximize, .csd headerbar button.titlebutton.maximize, .solid-csd headerbar button.titlebutton.maximize, headerbar.default-decoration button.titlebutton.maximize, .titlebar button.titlebutton.maximize, headerbar button.titlebutton.minimize, .csd headerbar button.titlebutton.minimize, .solid-csd headerbar button.titlebutton.minimize, headerbar.default-decoration button.titlebutton.minimize, .titlebar button.titlebutton.minimize, .csd headerbar:not(.default-decoration) button.titlebutton.close, .csd headerbar:not(.default-decoration) button.titlebutton.maximize, .csd headerbar:not(.default-decoration) button.titlebutton.minimize, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize, #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.titlebutton, window.background.chromium headerbar.titlebar button.titlebutton {
+  margin: 0;
+  padding: 0;
+  min-width: 26px;
+  min-height: 26px;
+  animation: none;
+  box-shadow: none;
+  border: none;
+  color: transparent;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
 
-.csd .header-bar .button.titlebutton.close > GtkImage, .csd .header-bar .button.titlebutton.minimize > GtkImage, .csd .header-bar .button.titlebutton.maximize > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.close > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.minimize > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.maximize > GtkImage, .csd .titlebar .button.titlebutton.close > GtkImage, .csd .titlebar .button.titlebutton.minimize > GtkImage, .csd .titlebar .button.titlebutton.maximize > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.close > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.minimize > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.maximize > GtkImage { color: transparent; background-size: 16px 16px; background-repeat: no-repeat; background-position: center; }
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:hover, headerbar button.titlebutton.maximize:hover, .titlebar button.titlebutton.maximize:hover, headerbar button.titlebutton.minimize:hover, .titlebar button.titlebutton.minimize:hover, .csd headerbar:not(.default-decoration) button.titlebutton.close:hover, .csd headerbar:not(.default-decoration) button.titlebutton.maximize:hover, .csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover, #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.titlebutton:hover, window.background.chromium headerbar.titlebar button.titlebutton:hover, headerbar button.titlebutton.close:active, .titlebar button.titlebutton.close:active, headerbar button.titlebutton.maximize:active, .titlebar button.titlebutton.maximize:active, headerbar button.titlebutton.minimize:active, .titlebar button.titlebutton.minimize:active, .csd headerbar:not(.default-decoration) button.titlebutton.close:active, .csd headerbar:not(.default-decoration) button.titlebutton.maximize:active, .csd headerbar:not(.default-decoration) button.titlebutton.minimize:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:active, #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.titlebutton:active, window.background.chromium headerbar.titlebar button.titlebutton:active, headerbar button.titlebutton.close:checked, .titlebar button.titlebutton.close:checked, headerbar button.titlebutton.maximize:checked, .titlebar button.titlebutton.maximize:checked, headerbar button.titlebutton.minimize:checked, .titlebar button.titlebutton.minimize:checked, .csd headerbar:not(.default-decoration) button.titlebutton.close:checked, .csd headerbar:not(.default-decoration) button.titlebutton.maximize:checked, .csd headerbar:not(.default-decoration) button.titlebutton.minimize:checked, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:checked, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:checked, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:checked, #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.titlebutton:checked, window.background.chromium headerbar.titlebar button.titlebutton:checked {
+  box-shadow: none;
+  border: none;
+  color: transparent;
+  animation: none;
+  transition: background-size 100ms cubic-bezier(0, 0, 0.2, 1);
+  background-color: transparent;
+  background-size: 20px 20px;
+}
 
-.csd .header-bar .button.titlebutton.close > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.close > GtkImage, .csd .titlebar .button.titlebutton.close > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.close > GtkImage { background-image: -gtk-scaled(url("assets/window-close.png"), url("assets/window-close@2.png")); }
+headerbar button.titlebutton.close:backdrop, .titlebar button.titlebutton.close:backdrop, headerbar button.titlebutton.maximize:backdrop, .titlebar button.titlebutton.maximize:backdrop, headerbar button.titlebutton.minimize:backdrop, .titlebar button.titlebutton.minimize:backdrop, .csd headerbar:not(.default-decoration) button.titlebutton.close:backdrop, .csd headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop, .csd headerbar:not(.default-decoration) button.titlebutton.minimize:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:backdrop, #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.titlebutton:backdrop, window.background.chromium headerbar.titlebar button.titlebutton:backdrop {
+  opacity: 1;
+  color: transparent;
+}
 
-.csd .header-bar .button.titlebutton.close:hover, .csd .header-bar.selection-mode .button.titlebutton.close:hover, .csd .titlebar .button.titlebutton.close:hover, .csd .titlebar.selection-mode .button.titlebutton.close:hover { color: #FFFFFF; background-color: #FF5252; }
+headerbar button.titlebutton:hover, .csd headerbar button.titlebutton:hover, .solid-csd headerbar button.titlebutton:hover, headerbar.default-decoration button.titlebutton:hover, .titlebar button.titlebutton:hover {
+  transition: all 100ms cubic-bezier(0, 0, 0.2, 1), background-size 0, background-image 0;
+  animation: none;
+  box-shadow: inset 0 0 0 9999px rgba(46, 179, 152, 0.3);
+  background-image: radial-gradient(circle farthest-corner at center, rgba(46, 179, 152, 0.3) 10%, transparent 0%);
+  background-size: 0% 0%;
+  color: #2EB398;
+}
 
-.csd .header-bar .button.titlebutton.close:hover > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.close:hover > GtkImage, .csd .titlebar .button.titlebutton.close:hover > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.close:hover > GtkImage { background-image: -gtk-scaled(url("assets/window-close-active.png"), url("assets/window-close-active@2.png")); }
+headerbar button.titlebutton:active, .csd headerbar button.titlebutton:active, .solid-csd headerbar button.titlebutton:active, headerbar.default-decoration button.titlebutton:active, .titlebar button.titlebutton:active, headerbar button.titlebutton:checked, .csd headerbar button.titlebutton:checked, .solid-csd headerbar button.titlebutton:checked, headerbar.default-decoration button.titlebutton:checked, .titlebar button.titlebutton:checked {
+  transition: all 100ms cubic-bezier(0, 0, 0.2, 1), background-size 0, background-image 0;
+  animation: ripple_effect 100ms cubic-bezier(0, 0, 0.2, 1) forwards;
+  box-shadow: inset 0 0 0 9999px #2EB398;
+  background-image: radial-gradient(circle farthest-corner at center, #2EB398 10%, transparent 0%);
+  background-size: 0% 0%;
+  color: #FFFFFF;
+}
 
-.csd .header-bar .button.titlebutton.close:active, .csd .header-bar.selection-mode .button.titlebutton.close:active, .csd .titlebar .button.titlebutton.close:active, .csd .titlebar.selection-mode .button.titlebutton.close:active { color: #FFFFFF; background-color: #2196F3; }
+headerbar button.titlebutton.close, .csd headerbar button.titlebutton.close, .solid-csd headerbar button.titlebutton.close, headerbar.default-decoration button.titlebutton.close, .titlebar button.titlebutton.close {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-close-dark.png"), url("assets/window-assets/titlebutton-close-dark@2.png"));
+}
 
-.csd .header-bar .button.titlebutton.close:active > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.close:active > GtkImage, .csd .titlebar .button.titlebutton.close:active > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.close:active > GtkImage { background-image: -gtk-scaled(url("assets/window-close-active.png"), url("assets/window-close-active@2.png")); }
+headerbar button.titlebutton.close:backdrop, .titlebar button.titlebutton.close:backdrop {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-close-backdrop-dark.png"), url("assets/window-assets/titlebutton-close-backdrop-dark@2.png"));
+}
 
-.csd .header-bar .button.titlebutton.minimize > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.minimize > GtkImage, .csd .titlebar .button.titlebutton.minimize > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.minimize > GtkImage { background-image: -gtk-scaled(url("assets/window-minimize.png"), url("assets/window-minimize@2.png")); }
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:hover {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-close-hover-dark.png"), url("assets/window-assets/titlebutton-close-hover-dark@2.png"));
+}
 
-.csd .header-bar .button.titlebutton.minimize:hover > GtkImage, .csd .header-bar .button.titlebutton.minimize:active > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.minimize:hover > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.minimize:active > GtkImage, .csd .titlebar .button.titlebutton.minimize:hover > GtkImage, .csd .titlebar .button.titlebutton.minimize:active > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.minimize:hover > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.minimize:active > GtkImage { background-image: -gtk-scaled(url("assets/window-minimize-active.png"), url("assets/window-minimize-active@2.png")); }
+headerbar button.titlebutton.close:active, .titlebar button.titlebutton.close:active {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-close-active-dark.png"), url("assets/window-assets/titlebutton-close-active-dark@2.png"));
+}
 
-.csd .header-bar .button.titlebutton.maximize > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.maximize > GtkImage, .csd .titlebar .button.titlebutton.maximize > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.maximize > GtkImage { background-image: -gtk-scaled(url("assets/window-maximize.png"), url("assets/window-maximize@2.png")); }
+headerbar button.titlebutton.maximize, .csd headerbar button.titlebutton.maximize, .solid-csd headerbar button.titlebutton.maximize, headerbar.default-decoration button.titlebutton.maximize, .titlebar button.titlebutton.maximize {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-maximize-dark.png"), url("assets/window-assets/titlebutton-maximize-dark@2.png"));
+}
 
-.csd .header-bar .button.titlebutton.maximize:hover > GtkImage, .csd .header-bar .button.titlebutton.maximize:active > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.maximize:hover > GtkImage, .csd .header-bar.selection-mode .button.titlebutton.maximize:active > GtkImage, .csd .titlebar .button.titlebutton.maximize:hover > GtkImage, .csd .titlebar .button.titlebutton.maximize:active > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.maximize:hover > GtkImage, .csd .titlebar.selection-mode .button.titlebutton.maximize:active > GtkImage { background-image: -gtk-scaled(url("assets/window-maximize-active.png"), url("assets/window-maximize-active@2.png")); }
+headerbar button.titlebutton.maximize:backdrop, .titlebar button.titlebutton.maximize:backdrop {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-maximize-backdrop-dark.png"), url("assets/window-assets/titlebutton-maximize-backdrop-dark@2.png"));
+}
 
-.maximized.csd .header-bar .button.titlebutton.maximize > GtkImage, .maximized.csd .header-bar.selection-mode .button.titlebutton.maximize > GtkImage, .maximized.csd .titlebar .button.titlebutton.maximize > GtkImage, .maximized.csd .titlebar.selection-mode .button.titlebutton.maximize > GtkImage { background-image: -gtk-scaled(url("assets/window-unmaximize.png"), url("assets/window-unmaximize@2.png")); }
+headerbar button.titlebutton.maximize:hover, .titlebar button.titlebutton.maximize:hover {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-maximize-hover-dark.png"), url("assets/window-assets/titlebutton-maximize-hover-dark@2.png"));
+}
 
-.maximized.csd .header-bar .button.titlebutton.maximize:hover > GtkImage, .maximized.csd .header-bar .button.titlebutton.maximize:active > GtkImage, .maximized.csd .header-bar.selection-mode .button.titlebutton.maximize:hover > GtkImage, .maximized.csd .header-bar.selection-mode .button.titlebutton.maximize:active > GtkImage, .maximized.csd .titlebar .button.titlebutton.maximize:hover > GtkImage, .maximized.csd .titlebar .button.titlebutton.maximize:active > GtkImage, .maximized.csd .titlebar.selection-mode .button.titlebutton.maximize:hover > GtkImage, .maximized.csd .titlebar.selection-mode .button.titlebutton.maximize:active > GtkImage { background-image: -gtk-scaled(url("assets/window-unmaximize-active.png"), url("assets/window-unmaximize-active@2.png")); }
+headerbar button.titlebutton.maximize:active, .titlebar button.titlebutton.maximize:active {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-maximize-active-dark.png"), url("assets/window-assets/titlebutton-maximize-active-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton { padding: 6px; }
+headerbar button.titlebutton.minimize, .csd headerbar button.titlebutton.minimize, .solid-csd headerbar button.titlebutton.minimize, headerbar.default-decoration button.titlebutton.minimize, .titlebar button.titlebutton.minimize {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-minimize-dark.png"), url("assets/window-assets/titlebutton-minimize-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.close, .ssd .titlebar .button.titlebutton.minimize, .ssd .titlebar .button.titlebutton.maximize { color: transparent; background-size: 28px 28px; background-repeat: no-repeat; background-position: center; background: none; box-shadow: none; }
+headerbar button.titlebutton.minimize:backdrop, .titlebar button.titlebutton.minimize:backdrop {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-minimize-backdrop-dark.png"), url("assets/window-assets/titlebutton-minimize-backdrop-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.close:backdrop, .ssd .titlebar .button.titlebutton.close:hover:backdrop, .ssd .titlebar .button.titlebutton.close:active:backdrop, .ssd .titlebar .button.titlebutton.minimize:backdrop, .ssd .titlebar .button.titlebutton.minimize:hover:backdrop, .ssd .titlebar .button.titlebutton.minimize:active:backdrop, .ssd .titlebar .button.titlebutton.maximize:backdrop, .ssd .titlebar .button.titlebutton.maximize:hover:backdrop, .ssd .titlebar .button.titlebutton.maximize:active:backdrop { color: transparent; }
+headerbar button.titlebutton.minimize:hover, .titlebar button.titlebutton.minimize:hover {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-minimize-hover-dark.png"), url("assets/window-assets/titlebutton-minimize-hover-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.close { background-image: -gtk-scaled(url("assets/window-close-ssd.png"), url("assets/window-close-ssd@2.png")); box-shadow: none; }
+headerbar button.titlebutton.minimize:active, .titlebar button.titlebutton.minimize:active {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-minimize-active-dark.png"), url("assets/window-assets/titlebutton-minimize-active-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.close:hover { background-image: -gtk-scaled(url("assets/window-close-ssd-hover.png"), url("assets/window-close-ssd-hover@2.png")); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16); }
+.fullscreen headerbar button.titlebutton.maximize, .fullscreen .titlebar button.titlebutton.maximize,
+.maximized headerbar button.titlebutton.maximize,
+.maximized .titlebar button.titlebutton.maximize {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-restore-dark.png"), url("assets/window-assets/titlebutton-restore-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.close:active { background-image: -gtk-scaled(url("assets/window-close-ssd-active.png"), url("assets/window-close-ssd-active@2.png")); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16); }
+.fullscreen headerbar button.titlebutton.maximize:backdrop, .fullscreen .titlebar button.titlebutton.maximize:backdrop,
+.maximized headerbar button.titlebutton.maximize:backdrop,
+.maximized .titlebar button.titlebutton.maximize:backdrop {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-restore-backdrop-dark.png"), url("assets/window-assets/titlebutton-restore-backdrop-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.close:backdrop { background-image: -gtk-scaled(url("assets/window-close-ssd-backdrop.png"), url("assets/window-close-ssd-backdrop@2.png")); box-shadow: none; }
+.fullscreen headerbar button.titlebutton.maximize:hover, .fullscreen .titlebar button.titlebutton.maximize:hover,
+.maximized headerbar button.titlebutton.maximize:hover,
+.maximized .titlebar button.titlebutton.maximize:hover {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-restore-hover-dark.png"), url("assets/window-assets/titlebutton-restore-hover-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.close:backdrop:hover { background-image: -gtk-scaled(url("assets/window-close-ssd-backdrop-hover.png"), url("assets/window-close-ssd-backdrop-hover@2.png")); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16); }
+.fullscreen headerbar button.titlebutton.maximize:active, .fullscreen .titlebar button.titlebutton.maximize:active,
+.maximized headerbar button.titlebutton.maximize:active,
+.maximized .titlebar button.titlebutton.maximize:active {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-restore-active-dark.png"), url("assets/window-assets/titlebutton-restore-active-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.close:backdrop:active { background-image: -gtk-scaled(url("assets/window-close-ssd-backdrop-active.png"), url("assets/window-close-ssd-backdrop-active@2.png")); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16); }
+headerbar button.titlebutton.close, .csd headerbar button.titlebutton.close, .solid-csd headerbar button.titlebutton.close, headerbar.default-decoration button.titlebutton.close,
+.csd headerbar.default-decoration button.titlebutton.close,
+.titlebar button.titlebutton.close, .csd
+.titlebar button.titlebutton.close, .solid-csd
+.titlebar button.titlebutton.close,
+.titlebar.default-decoration button.titlebutton.close,
+.csd
+.titlebar.default-decoration button.titlebutton.close {
+  border-radius: 8px;
+  -gtk-outline-radius: 8px;
+}
 
-.ssd .titlebar .button.titlebutton.minimize { background-image: -gtk-scaled(url("assets/window-minimize-ssd.png"), url("assets/window-minimize-ssd@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.close, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-close-dark.png"), url("assets/window-assets/titlebutton-close-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.minimize:hover { background-image: -gtk-scaled(url("assets/window-minimize-ssd-hover.png"), url("assets/window-minimize-ssd-hover@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.close:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:backdrop {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-close-backdrop-dark.png"), url("assets/window-assets/titlebutton-close-backdrop-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.minimize:active { background-image: -gtk-scaled(url("assets/window-minimize-ssd-active.png"), url("assets/window-minimize-ssd-active@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.close:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:hover {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-close-hover-dark.png"), url("assets/window-assets/titlebutton-close-hover-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.minimize:backdrop { background-image: -gtk-scaled(url("assets/window-minimize-ssd-backdrop.png"), url("assets/window-minimize-ssd-backdrop@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.close:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:active {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-close-active-dark.png"), url("assets/window-assets/titlebutton-close-active-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.minimize:backdrop:hover { background-image: -gtk-scaled(url("assets/window-minimize-ssd-backdrop-hover.png"), url("assets/window-minimize-ssd-backdrop-hover@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-maximize-dark.png"), url("assets/window-assets/titlebutton-maximize-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.minimize:backdrop:active { background-image: -gtk-scaled(url("assets/window-minimize-ssd-backdrop-active.png"), url("assets/window-minimize-ssd-backdrop-active@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-maximize-backdrop-dark.png"), url("assets/window-assets/titlebutton-maximize-backdrop-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.maximize { background-image: -gtk-scaled(url("assets/window-maximize-ssd.png"), url("assets/window-maximize-ssd@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:hover {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-maximize-hover-dark.png"), url("assets/window-assets/titlebutton-maximize-hover-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.maximize:hover { background-image: -gtk-scaled(url("assets/window-maximize-ssd-hover.png"), url("assets/window-maximize-ssd-hover@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:active {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-maximize-active-dark.png"), url("assets/window-assets/titlebutton-maximize-active-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.maximize:active { background-image: -gtk-scaled(url("assets/window-maximize-ssd-active.png"), url("assets/window-maximize-ssd-active@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-minimize-dark.png"), url("assets/window-assets/titlebutton-minimize-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.maximize:backdrop { background-image: -gtk-scaled(url("assets/window-maximize-ssd-backdrop.png"), url("assets/window-maximize-ssd-backdrop@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:backdrop {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-minimize-backdrop-dark.png"), url("assets/window-assets/titlebutton-minimize-backdrop-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.maximize:backdrop:hover { background-image: -gtk-scaled(url("assets/window-maximize-ssd-backdrop-hover.png"), url("assets/window-maximize-ssd-backdrop-hover@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-minimize-hover-dark.png"), url("assets/window-assets/titlebutton-minimize-hover-dark@2.png"));
+}
 
-.ssd .titlebar .button.titlebutton.maximize:backdrop:active { background-image: -gtk-scaled(url("assets/window-maximize-ssd-backdrop-active.png"), url("assets/window-maximize-ssd-backdrop-active@2.png")); }
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:active {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-minimize-active-dark.png"), url("assets/window-assets/titlebutton-minimize-active-dark@2.png"));
+}
 
-.maximized.ssd .titlebar .button.titlebutton.maximize { background-image: -gtk-scaled(url("assets/window-unmaximize-ssd.png"), url("assets/window-unmaximize-ssd@2.png")); }
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-restore-dark.png"), url("assets/window-assets/titlebutton-restore-dark@2.png"));
+}
 
-.maximized.ssd .titlebar .button.titlebutton.maximize:hover { background-image: -gtk-scaled(url("assets/window-unmaximize-ssd-hover.png"), url("assets/window-unmaximize-ssd-hover@2.png")); }
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-restore-backdrop-dark.png"), url("assets/window-assets/titlebutton-restore-backdrop-dark@2.png"));
+}
 
-.maximized.ssd .titlebar .button.titlebutton.maximize:active { background-image: -gtk-scaled(url("assets/window-unmaximize-ssd-active.png"), url("assets/window-unmaximize-ssd-active@2.png")); }
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:hover, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:hover {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-restore-hover-dark.png"), url("assets/window-assets/titlebutton-restore-hover-dark@2.png"));
+}
 
-.maximized.ssd .titlebar .button.titlebutton.maximize:backdrop { background-image: -gtk-scaled(url("assets/window-unmaximize-ssd-backdrop.png"), url("assets/window-unmaximize-ssd-backdrop@2.png")); }
-
-.maximized.ssd .titlebar .button.titlebutton.maximize:backdrop:hover { background-image: -gtk-scaled(url("assets/window-unmaximize-ssd-backdrop-hover.png"), url("assets/window-unmaximize-ssd-backdrop-hover@2.png")); }
-
-.maximized.ssd .titlebar .button.titlebutton.maximize:backdrop:active { background-image: -gtk-scaled(url("assets/window-unmaximize-ssd-backdrop-active.png"), url("assets/window-unmaximize-ssd-backdrop-active@2.png")); }
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:active, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:active {
+  background-image: -gtk-scaled(url("assets/window-assets/titlebutton-restore-active-dark.png"), url("assets/window-assets/titlebutton-restore-active-dark@2.png"));
+}
 
 .view:selected, .label:selected, .label:selected:focus, .label:selected:hover, .grid-child:selected, .background .entry:selected, .entry:selected, GtkTreeView .entry:selected, GtkTreeView .entry:focus:selected, GtkTreeView .entry.flat:selected, GtkTreeView .linked > .entry:selected:not(.flat), GtkTreeView .notebook:not(.reorderable-page) > .entry:selected, GtkTreeView .entry.flat:focus:selected, .menuitem.button.flat:selected, GtkTreeView .spinbutton.entry:focus:selected, GtkTreeView.view:selected, GtkTreeView.view .list-row:selected, GtkTreeView.view .tweak-category:selected, GtkPaned GtkTreeView.view:selected, GtkPaned GtkTreeView.view .list-row:selected, GtkPaned GtkTreeView.view .tweak-category:selected, .list-row:selected, .tweak-category:selected, .list-row:selected .entry:selected, .tweak-category:selected .entry:selected, .list-row:selected .entry.flat:selected, .tweak-category:selected .entry.flat:selected, .list-row:selected .linked > .entry:selected:not(.flat), .list-row:selected .notebook:not(.reorderable-page) > .entry:selected, .sidebar GtkTreeView.view:selected, .sidebar GtkTreeView.view .list-row:selected, .sidebar GtkTreeView.view .tweak-category:selected, GdMainView .view:hover:selected, GdMainView .view:selected, GdMainView .view.list-row.activatable:hover:selected, GdMainView column-header .view.button:hover:selected, column-header GdMainView .view.button:hover:selected, GdMainView .view.activatable.tweak-category:hover:selected, GdMainView .view.list-row.activatable:selected, GdMainView column-header .view.button:selected, column-header GdMainView .view.button:selected, GdMainView .view.activatable.tweak-category:selected, .side-panel .view:hover:selected, .side-panel .view:selected, .side-panel .view.list-row.activatable:hover:selected, .side-panel column-header .view.button:hover:selected, column-header .side-panel .view.button:hover:selected, .side-panel .view.activatable.tweak-category:hover:selected, .side-panel .view.list-row.activatable:selected, .side-panel column-header .view.button:selected, column-header .side-panel .view.button:selected, .side-panel .view.activatable.tweak-category:selected, DConfWindow GtkBox.vertical > GtkPaned > GtkScrolledWindow GtkTreeView.view:selected, DConfWindow GtkBox.vertical > GtkPaned > GtkScrolledWindow GtkTreeView.view .list-row:selected, DConfWindow GtkBox.vertical > GtkPaned > GtkScrolledWindow GtkTreeView.view .tweak-category:selected { background-color: #2196F3; color: #FFFFFF; }
 
