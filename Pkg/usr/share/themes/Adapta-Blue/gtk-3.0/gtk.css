@@ -22,7 +22,7 @@
 
 .gtkstyle-fallback { background-color: #FAFBFC; color: rgba(38, 50, 56, 0.87); }
 
-.gtkstyle-fallback:hover { background-color: #FAFBFC; color: #263238; }
+.gtkstyle-fallback:hover { background-color: #e1e3e4; color: #263238; }
 
 .gtkstyle-fallback:active { background-color: #c5c9cb; color: #263238; }
 
@@ -92,19 +92,19 @@ GtkTextView, GtkTextView.view { background-image: none; transition: none; }
 
 .osd .spinner:insensitive, .floating-bar .spinner:insensitive, .app-notification .spinner:insensitive, .header-bar .spinner:insensitive, .message-dialog .spinner:insensitive, .lightdm-gtk-greeter #login_window .spinner:insensitive, .lightdm-gtk-greeter #shutdown_dialog .spinner:insensitive, .lightdm-gtk-greeter #restart_dialog .spinner:insensitive { color: rgba(33, 150, 243, 0.4); }
 
-.entry { padding: 0.75em 1em 0.8em; border-radius: 0; outline-radius: 0; border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.87); background-color: #FAFBFC; }
+.entry { padding: 0.75em 1em 0.8em; border-radius: 0; outline-radius: 0; border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.87); background-color: #FAFBFC; }
 
-.entry:focus { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#2196F3), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; background-color: #FAFBFC; }
+.entry:focus { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#2196F3), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; background-color: #FAFBFC; }
 
-.entry:insensitive { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.28); background-color: #FAFBFC; }
+.entry:insensitive { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.28); background-color: #FAFBFC; }
 
 .background .entry, .background .entry:focus, .background .entry:insensitive { background-color: transparent; }
 
-.entry.flat, .linked > .entry:not(.flat), .linked.vertical > .entry:not(.flat), .notebook:not(.reorderable-page) > .entry { border-radius: 0; outline-radius: 0; border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.87); }
+.entry.flat, .linked > .entry:not(.flat), .linked.vertical > .entry:not(.flat), .notebook:not(.reorderable-page) > .entry { border-radius: 0; outline-radius: 0; border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.87); }
 
-.entry.flat:focus, .linked > .entry:focus:not(.flat), .notebook:not(.reorderable-page) > .entry:focus { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#2196F3), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; }
+.entry.flat:focus, .linked > .entry:focus:not(.flat), .notebook:not(.reorderable-page) > .entry:focus { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#2196F3), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; }
 
-.entry.flat:insensitive, .linked > .entry:insensitive:not(.flat), .notebook:not(.reorderable-page) > .entry:insensitive { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.28); }
+.entry.flat:insensitive, .linked > .entry:insensitive:not(.flat), .notebook:not(.reorderable-page) > .entry:insensitive { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.28); }
 
 .entry.image.left { padding-left: 0.1em; }
 
@@ -112,29 +112,29 @@ GtkTextView, GtkTextView.view { background-image: none; transition: none; }
 
 .linked > .entry:not(.flat), .linked.vertical > .entry:not(.flat) { border-radius: 0; outline-radius: 0; }
 
-.entry.error { border-radius: 0; outline-radius: 0; border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.87); }
+.entry.error { border-radius: 0; outline-radius: 0; border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.87); }
 
-.entry.error:focus { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#F44336), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; }
+.entry.error:focus { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#F44336), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; }
 
-.entry.error:insensitive { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.28); }
+.entry.error:insensitive { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.28); }
 
-.entry.error.flat, .linked > .error.entry:not(.flat), .notebook:not(.reorderable-page) > .error.entry { border-radius: 0; outline-radius: 0; border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.87); }
+.entry.error.flat, .linked > .error.entry:not(.flat), .notebook:not(.reorderable-page) > .error.entry { border-radius: 0; outline-radius: 0; border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.87); }
 
-.entry.error.flat:focus, .linked > .error.entry:focus:not(.flat), .notebook:not(.reorderable-page) > .error.entry:focus { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#F44336), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; }
+.entry.error.flat:focus, .linked > .error.entry:focus:not(.flat), .notebook:not(.reorderable-page) > .error.entry:focus { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#F44336), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; }
 
-.entry.error.flat:insensitive, .linked > .error.entry:insensitive:not(.flat), .notebook:not(.reorderable-page) > .error.entry:insensitive { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.28); }
+.entry.error.flat:insensitive, .linked > .error.entry:insensitive:not(.flat), .notebook:not(.reorderable-page) > .error.entry:insensitive { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.28); }
 
-.entry.warning { border-radius: 0; outline-radius: 0; border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.87); }
+.entry.warning { border-radius: 0; outline-radius: 0; border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.87); }
 
-.entry.warning:focus { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#FF9800), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; }
+.entry.warning:focus { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#FF9800), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; }
 
-.entry.warning:insensitive { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.28); }
+.entry.warning:insensitive { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; color: rgba(38, 50, 56, 0.28); }
 
-.entry.warning.flat, .linked > .warning.entry:not(.flat), .notebook:not(.reorderable-page) > .warning.entry { border-radius: 0; outline-radius: 0; border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.87); }
+.entry.warning.flat, .linked > .warning.entry:not(.flat), .notebook:not(.reorderable-page) > .warning.entry { border-radius: 0; outline-radius: 0; border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.87); }
 
-.entry.warning.flat:focus, .linked > .warning.entry:focus:not(.flat), .notebook:not(.reorderable-page) > .warning.entry:focus { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#FF9800), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; }
+.entry.warning.flat:focus, .linked > .warning.entry:focus:not(.flat), .notebook:not(.reorderable-page) > .warning.entry:focus { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#FF9800), to(transparent)) 0 0 2/0 0 2px; color: #263238; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0s; }
 
-.entry.warning.flat:insensitive, .linked > .warning.entry:insensitive:not(.flat), .notebook:not(.reorderable-page) > .warning.entry:insensitive { border-color: #FAFBFC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.28); }
+.entry.warning.flat:insensitive, .linked > .warning.entry:insensitive:not(.flat), .notebook:not(.reorderable-page) > .warning.entry:insensitive { border-color: #E5E9EC; border-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(alpha(currentColor, 0.2)), to(transparent)) 0 0 1/0 0 1px; background-color: transparent; color: rgba(38, 50, 56, 0.28); }
 
 .entry.image:not(:hover):not(:active) { color: alpha(currentColor, 0.87); }
 
@@ -525,7 +525,7 @@ GtkPaned .toolbar:not(.vertical):not(.inline-toolbar), GtkEventBox .toolbar:not(
 
 .search-bar .button.raised, .location-bar .button.raised { padding: 0.75em; border-radius: 100px; outline-radius: 100px; }
 
-.titlebar, .header-bar { -GtkPaned-handle-size: 0; padding: 0.4em; border-width: 1px 0 1px; border-style: solid; border-top-color: #29353b; border-bottom-color: rgba(0, 0, 0, 0.09); background-color: #222d32; background-clip: border-box; color: rgba(207, 216, 220, 0.87); }
+.titlebar, .header-bar { -GtkPaned-handle-size: 0; padding: 0.4em; border-width: 1px 0 1px; border-style: solid; border-top-color: #263238; border-bottom-color: rgba(0, 0, 0, 0.09); background-color: #222d32; background-clip: border-box; color: rgba(207, 216, 220, 0.87); }
 
 .titlebar *, .header-bar * { outline-style: none; outline-width: 0; outline-color: transparent; }
 
@@ -703,7 +703,7 @@ GtkPaned .toolbar:not(.vertical):not(.inline-toolbar), GtkEventBox .toolbar:not(
 
 .titlebar.default-decoration .button.titlebutton:backdrop, .header-bar.default-decoration .button.titlebutton:backdrop { color: rgba(207, 216, 220, 0.4); }
 
-.solid-csd .titlebar:dir(rtl), .solid-csd .titlebar:dir(ltr), .solid-csd .header-bar:dir(rtl), .solid-csd .header-bar:dir(ltr) { margin: -1px -1px -1px 0; box-shadow: inset 0 1px #29353b; }
+.solid-csd .titlebar:dir(rtl), .solid-csd .titlebar:dir(ltr), .solid-csd .header-bar:dir(rtl), .solid-csd .header-bar:dir(ltr) { margin: -1px -1px -1px 0; box-shadow: inset 0 1px #263238; }
 
 .csd .header-bar, GtkBox .header-bar:only-child { box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.26), 0 2px 3px rgba(0, 0, 0, 0.32); }
 
@@ -1653,7 +1653,7 @@ GtkPaned.wide .pane-separator { background-color: transparent; border-style: non
 
 GtkPaned.wide.vertical .pane-separator { border-style: solid none; }
 
-GtkInfoBar, NautilusTrashBar { padding: 0.4em; border-width: 0 0 1px; border-style: solid; border-color: #FAFBFC; background-color: #FAFBFC; }
+GtkInfoBar, NautilusTrashBar { padding: 0.4em; border-width: 0 0 1px; border-style: solid; border-color: #E5E9EC; background-color: #FAFBFC; }
 
 .info, .question, .warning, .error { color: rgba(38, 50, 56, 0.87); }
 
@@ -1791,7 +1791,7 @@ GtkScaleButton.button.text-button, GtkVolumeButton.button.text-button { border-r
 
 .window-frame.ssd { box-shadow: 0 0 0 1px transparent; }
 
-.window-frame.ssd .titlebar { box-shadow: inset 0 1px #29353b; }
+.window-frame.ssd .titlebar { box-shadow: inset 0 1px #263238; }
 
 .window-frame.ssd.tiled .titlebar, .window-frame.ssd.maximized .titlebar { border-top-color: #222d32; border-radius: 0; transition: none; }
 
@@ -1850,7 +1850,7 @@ headerbar button.titlebutton:active, .csd headerbar button.titlebutton:active, .
   box-shadow: inset 0 0 0 9999px #2196F3;
   background-image: radial-gradient(circle farthest-corner at center, #2196F3 10%, transparent 0%);
   background-size: 0% 0%;
-  color: #FAFBFC;
+  color: #FFFFFF;
 }
 
 headerbar button.titlebutton.close, .csd headerbar button.titlebutton.close, .solid-csd headerbar button.titlebutton.close, headerbar.default-decoration button.titlebutton.close, .titlebar button.titlebutton.close {
@@ -2191,9 +2191,9 @@ SeahorseKeyManager .sidebar, SeahorseKeyManager .sidebar:backdrop, SeahorseKeyMa
 
 GtkBox > .header-bar > .label.polari-titlebar-separator { border: none; opacity: 0; }
 
-.inline-toolbar.toolbar.horizontal.sidebar-toolbar { box-shadow: inset 0 1px #FAFBFC, inset 0 2px 2px rgba(0, 0, 0, 0.05), inset -2px 0 2px -2px rgba(0, 0, 0, 0.03), inset -3px 0 3px -2px rgba(0, 0, 0, 0.03); }
+.inline-toolbar.toolbar.horizontal.sidebar-toolbar { box-shadow: inset 0 1px #E5E9EC, inset 0 2px 2px rgba(0, 0, 0, 0.05), inset -2px 0 2px -2px rgba(0, 0, 0, 0.03), inset -3px 0 3px -2px rgba(0, 0, 0, 0.03); }
 
-.inline-toolbar.toolbar.horizontal.sidebar-toolbar:dir(rtl) { box-shadow: inset 0 1px #FAFBFC, inset 0 2px 2px rgba(0, 0, 0, 0.05), inset 2px 0 2px -2px rgba(0, 0, 0, 0.03), inset 3px 0 3px -2px rgba(0, 0, 0, 0.03); }
+.inline-toolbar.toolbar.horizontal.sidebar-toolbar:dir(rtl) { box-shadow: inset 0 1px #E5E9EC, inset 0 2px 2px rgba(0, 0, 0, 0.05), inset 2px 0 2px -2px rgba(0, 0, 0, 0.03), inset 3px 0 3px -2px rgba(0, 0, 0, 0.03); }
 
 .sidebar-paned GtkStack RBDisplayPageTree .sidebar { background-color: rgba(12, 18, 0, 0.01); }
 
@@ -2269,7 +2269,7 @@ GbViewStack GtkBox.header.notebook, GbEditorWorkspace > GtkPaned > GtkBox > GtkB
 
 GbWorkspacePane GtkStackSwitcher .button { padding: 1em; }
 
-GbWorkspacePane .pane-separator { background-color: #FAFBFC; }
+GbWorkspacePane .pane-separator { background-color: #E5E9EC; }
 
 GtkScrolledWindow.gb-linked-scroller { border-top: none; }
 
@@ -2323,9 +2323,9 @@ TerminalScreen, TerminalWindow.background { background-color: #222d32; color: #F
 
 TerminalWindow .notebook.header.top { background-color: #263238; box-shadow: inset 0 2px 2px -3px rgba(0, 0, 0, 0.26), inset 0 5px 3px -5px rgba(0, 0, 0, 0.39), inset 0 -1px rgba(0, 0, 0, 0.09); }
 
-TerminalWindow .notebook tab.reorderable-page.top:hover, TerminalWindow .notebook tab.reorderable-page.top.prelight-page { background-color: #29353b; box-shadow: inset 0 2px 2px -3px rgba(0, 0, 0, 0.26), inset 0 5px 3px -5px rgba(0, 0, 0, 0.39), inset 0 -1px rgba(0, 0, 0, 0.09); }
+TerminalWindow .notebook tab.reorderable-page.top:hover, TerminalWindow .notebook tab.reorderable-page.top.prelight-page { background-color: #263238; box-shadow: inset 0 2px 2px -3px rgba(0, 0, 0, 0.26), inset 0 5px 3px -5px rgba(0, 0, 0, 0.39), inset 0 -1px rgba(0, 0, 0, 0.09); }
 
-TerminalWindow .notebook tab.reorderable-page.top:active, TerminalWindow .notebook tab.reorderable-page.top.active-page { background-color: #29353b; box-shadow: -1px 0 2px rgba(0, 0, 0, 0.02), -1px 0 4px rgba(0, 0, 0, 0.03), 1px 0 2px rgba(0, 0, 0, 0.02), 1px 0 4px rgba(0, 0, 0, 0.03), inset 0 2px 2px -3px rgba(0, 0, 0, 0.26), inset 0 5px 3px -5px rgba(0, 0, 0, 0.39), inset 0 -1px rgba(0, 0, 0, 0.09); }
+TerminalWindow .notebook tab.reorderable-page.top:active, TerminalWindow .notebook tab.reorderable-page.top.active-page { background-color: #263238; box-shadow: -1px 0 2px rgba(0, 0, 0, 0.02), -1px 0 4px rgba(0, 0, 0, 0.03), 1px 0 2px rgba(0, 0, 0, 0.02), 1px 0 4px rgba(0, 0, 0, 0.03), inset 0 2px 2px -3px rgba(0, 0, 0, 0.26), inset 0 5px 3px -5px rgba(0, 0, 0, 0.39), inset 0 -1px rgba(0, 0, 0, 0.09); }
 
 TerminalWindow .notebook tab .label { color: rgba(207, 216, 220, 0.54); }
 
@@ -2459,7 +2459,7 @@ DConfWindow GtkBox.vertical > GtkPaned > GtkScrolledWindow GtkTreeView.view { ba
 
 .lightdm-gtk-greeter #buttonbox_frame { padding-top: 8px; }
 
-.lightdm-gtk-greeter GtkWindow.background.popup > .menu { margin: unset; padding: 1px; border-radius: 0; border-width: 1px; border-style: solid; border-color: #FAFBFC #FAFBFC #FAFBFC; background-clip: border-box; }
+.lightdm-gtk-greeter GtkWindow.background.popup > .menu { margin: unset; padding: 1px; border-radius: 0; border-width: 1px; border-style: solid; border-color: #FAFBFC #E5E9EC #E5E9EC; background-clip: border-box; }
 
 GtkStack .button.profile-button:checked { color: #263238; }
 
@@ -2557,14 +2557,14 @@ GtkWindow > GtkBox.vertical > GtkBox.horizontal > GtkAlignment { background-colo
 @define-color theme_unfocused_selected_fg_color #FAFBFC;
 @define-color unfocused_insensitive_color rgba(38, 50, 56, 0.28);
 @define-color placeholder_text_color #78909C;
-@define-color borders #FAFBFC;
-@define-color unfocused_borders #FAFBFC;
+@define-color borders #E5E9EC;
+@define-color unfocused_borders #E5E9EC;
 @define-color warning_color #FF9800;
 @define-color error_color #F44336;
 @define-color success_color #00E676;
 @define-color link_color #2196F3;
 @define-color wm_bg_a #222d32;
-@define-color wm_bg_b #29353b;
+@define-color wm_bg_b #263238;
 @define-color wm_bg_c #13191c;
 @define-color content_view_bg #FAFBFC;
 @define-color budgie_tasklist_indicator_color #2196F3;
