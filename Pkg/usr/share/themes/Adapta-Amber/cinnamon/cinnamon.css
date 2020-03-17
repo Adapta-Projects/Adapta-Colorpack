@@ -143,7 +143,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 #panel { font-size: 10pt; height: 28px; width: 32px; color: #CFD8DC; background-color: #13191c; font-weight: 700; }
 
-#panel:highlight { background-color: rgba(77, 182, 172, 0.25); }
+#panel:highlight { background-color: rgba(255, 193, 7, 0.25); }
 
 #panelLeft, .panelLeft { spacing: 4px; }
 
@@ -173,7 +173,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .panel-dummy { background-color: rgba(19, 25, 28, 0.4); }
 
-.panel-dummy:entered { background-color: rgba(77, 182, 172, 0.25); }
+.panel-dummy:entered { background-color: rgba(255, 193, 7, 0.25); }
 
 .panel-status-button { -natural-hpadding: 3px; -minimum-hpadding: 3px; border-width: 0; font-weight: 700; color: #CFD8DC; }
 
@@ -331,7 +331,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .switcher-list .item-box:outlined { padding: 6px; border: 2px solid rgba(207, 216, 220, 0.2); }
 
-.switcher-list .item-box:selected { background-color: rgba(77, 182, 172, 0.25); color: #81c4bf; }
+.switcher-list .item-box:selected { background-color: rgba(255, 193, 7, 0.25); color: #FFC107; }
 
 .switcher-list .thumbnail { width: 256px; }
 
@@ -355,13 +355,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .modal-dialog-button-box { spacing: 0; margin: 0; padding: 14px 10px; border: none; background: none; }
 
-.modal-dialog-button-box .modal-dialog-button { height: 30px; padding-top: 0; padding-bottom: 0; color: rgba(129, 196, 191, 0.87); font-weight: 700; }
+.modal-dialog-button-box .modal-dialog-button { height: 30px; padding-top: 0; padding-bottom: 0; color: rgba(255, 193, 7, 0.87); font-weight: 700; }
 
-.modal-dialog-button-box .modal-dialog-button:hover { color: #81c4bf; background-color: rgba(77, 182, 172, 0.12); }
+.modal-dialog-button-box .modal-dialog-button:hover { color: #FFC107; background-color: rgba(255, 193, 7, 0.12); }
 
-.modal-dialog-button-box .modal-dialog-button:focus { color: #81c4bf; }
+.modal-dialog-button-box .modal-dialog-button:focus { color: #FFC107; }
 
-.modal-dialog-button-box .modal-dialog-button:active { color: #81c4bf; background-color: rgba(77, 182, 172, 0.25); box-shadow: 0 0 transparent; }
+.modal-dialog-button-box .modal-dialog-button:active { color: #FFC107; background-color: rgba(255, 193, 7, 0.25); box-shadow: 0 0 transparent; }
 
 .modal-dialog-button-box .modal-dialog-button:disabled { color: rgba(207, 216, 220, 0.54); }
 
@@ -543,7 +543,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .window-list-box.vertical { padding: 6px 0 0 0; }
 
-.window-list-box:highlight { background-color: rgba(77, 182, 172, 0.25); }
+.window-list-box:highlight { background-color: rgba(255, 193, 7, 0.25); }
 
 .window-list-item-box { border: 0 none transparent; border-image: none; background-image: none; background-color: rgba(0, 0, 0, 0.01); color: #CFD8DC; box-shadow: 0 0 transparent; font-weight: 400; }
 
@@ -577,9 +577,9 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .panel-top .window-list-item-box StLabel:rtl, .panel-bottom .window-list-item-box StLabel:rtl { padding: 0 0 0 4px; }
 
-.window-list-item-box:progress, .window-list-item-box .progress { background-gradient-start: rgba(77, 182, 172, 0.25); background-gradient-end: rgba(77, 182, 172, 0.25); }
+.window-list-item-box:progress, .window-list-item-box .progress { background-gradient-start: rgba(255, 193, 7, 0.25); background-gradient-end: rgba(255, 193, 7, 0.25); }
 
-.window-list-item-demands-attention { background-gradient-start: rgba(77, 182, 172, 0.25); background-gradient-end: rgba(77, 182, 172, 0.25); color: #FAFBFC; }
+.window-list-item-demands-attention { background-gradient-start: rgba(255, 193, 7, 0.25); background-gradient-end: rgba(255, 193, 7, 0.25); color: #FAFBFC; }
 
 .panel-top .window-list-item-demands-attention { box-shadow: inset 0 2px #FFC107; }
 
@@ -639,9 +639,9 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .panel-top .grouped-window-list-item-box StLabel:rtl, .panel-bottom .grouped-window-list-item-box StLabel:rtl { padding: 0 0 0 4px; }
 
-.grouped-window-list-item-box:progress, .grouped-window-list-item-box .progress { background-gradient-start: rgba(77, 182, 172, 0.25); background-gradient-end: rgba(77, 182, 172, 0.25); }
+.grouped-window-list-item-box:progress, .grouped-window-list-item-box .progress { background-gradient-start: rgba(255, 193, 7, 0.25); background-gradient-end: rgba(255, 193, 7, 0.25); }
 
-.grouped-window-list-item-demands-attention { background-gradient-start: rgba(77, 182, 172, 0.25); background-gradient-end: rgba(77, 182, 172, 0.25); color: #FAFBFC; }
+.grouped-window-list-item-demands-attention { background-gradient-start: rgba(255, 193, 7, 0.25); background-gradient-end: rgba(255, 193, 7, 0.25); color: #FAFBFC; }
 
 .panel-top .grouped-window-list-item-demands-attention { box-shadow: inset 0 2px #FFC107; }
 
@@ -793,7 +793,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .applet-box:hover, .applet-box:checked { color: #FAFBFC; background-color: rgba(0, 0, 0, 0.01); }
 
-.applet-box:highlight { background-color: rgba(77, 182, 172, 0.25); }
+.applet-box:highlight { background-color: rgba(255, 193, 7, 0.25); }
 
 .panel-top .applet-box { padding: 0 6px; spacing: 2px; }
 
@@ -831,13 +831,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .desklet-header { font-size: 10pt; padding: 12px; padding-bottom: 6px; border-image: url("assets/misc/desklet-header.svg") 9 9 9 9; color: #CFD8DC; }
 
-.desklet-drag-placeholder { border: 2px solid #FFC107; background-color: rgba(77, 182, 172, 0.8); }
+.desklet-drag-placeholder { border: 2px solid #FFC107; background-color: rgba(255, 193, 7, 0.8); }
 
-.desklet:highlight, .desklet:highlight-with-borders, .desklet:highlight-with-borders-and-header { background-color: rgba(77, 182, 172, 0.25); }
+.desklet:highlight, .desklet:highlight-with-borders, .desklet:highlight-with-borders-and-header { background-color: rgba(255, 193, 7, 0.25); }
 
 .photoframe-box { padding: 12px; padding-bottom: 16px; border-image: url("assets/misc/bg.svg") 9 9 9 9; color: #CFD8DC; }
 
-.photoframe-box:highlight { background-color: rgba(77, 182, 172, 0.25); }
+.photoframe-box:highlight { background-color: rgba(255, 193, 7, 0.25); }
 
 .about-content { width: 550px; height: 250px; spacing: 8px; padding-bottom: 10px; }
 
