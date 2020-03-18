@@ -2,7 +2,7 @@
 
 Modified version of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta Theme</a> created by <a href="https://github.com/adapta-project">Adapta Project</a>
 
-This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta Colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a>, the main objective of this theme is the correction of missing things in Ivankra version!
+This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta Colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a>, the main objective of this theme is the correction of missing things in stock and Ivankra version!
 
 ## Modifications in relation of Ivanka and stock version
 

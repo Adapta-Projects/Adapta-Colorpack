@@ -1,9 +1,9 @@
 Package: Adapta-Colorpack
-Version: 202002151329
+Version: 202003172137
 Architecture: all
 Maintainer: José Henrique
 Depends: gtk2-engines-pixbuf (>= 2.24.30), gtk2-engines-murrine (>= 0.98.1), libgtk2.0-common (>= 2.24.30), libgtk-3-common (>= 3.20.0)
 Section: x11
 Priority: optional
 Homepage: https://github.com/Joshaby/Adapta-Colorpack
-Description: The modifications are a new button to close the window, for users using metacity, added an indicator on the panel to programs that are open in cinnamon, corrected parts with dark colors in chrome, in light themes!
+Description:
