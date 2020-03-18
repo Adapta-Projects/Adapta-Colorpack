@@ -1,4 +1,6 @@
-/* This file is part of adapta-gtk-theme Copyright (C) 2016-2018 Tista <tista.gma500@gmail.com> This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. */
+/* COLOR IN RGBA rgba(96, 125, 139, 0.8) */
+/* COLOR IN HTML #607D8B*/
+/* BACKGROUND COLOR IN HTML #263238*/
 * { transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.2s; }
 
 stage { font-size: 10pt; color: #CFD8DC; font-family: Roboto, Sans-Serif; font-weight: 400; }
@@ -53,7 +55,7 @@ StScrollBar { padding: 0; }
 
 StScrollView StScrollBar { min-width: 0.45em; min-height: 0.45em; }
 
-StScrollBar StBin#trough { margin: 0; border-radius: 0; background-color: #29353b; }
+StScrollBar StBin#trough { margin: 0; border-radius: 0; background-color: #263238; }
 
 StScrollBar StButton#vhandle, StScrollBar StButton#hhandle { margin: 0; border-radius: 0; background-color: rgba(207, 216, 220, 0.297); }
 
@@ -87,15 +89,15 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .toggle-switch-us:checked, .toggle-switch-intl:checked { background-image: url("assets/switch/switch-on.svg"); }
 
-.cinnamon-link { border-radius: 2px; color: rgba(96, 125, 139, 0.5); text-decoration: underline; }
+.cinnamon-link { border-radius: 2px; color: #607D8B; text-decoration: underline; }
 
-.cinnamon-link:hover { color: #607D8B; background-color: rgba(96, 125, 139, 0.5); }
+.cinnamon-link:hover { color: #607D8B; background-color: rgba(96, 125, 139, 0.12); }
 
-.cinnamon-link:active { color: #607D8B; background-color: rgba(96, 125, 139, 0.5); }
+.cinnamon-link:active { color: #607D8B; background-color: rgba(96, 125, 139, 0.25); }
 
 #Tooltip { font-size: 10pt; padding: 7px 8px 8px; border-radius: 2px; background-color: rgba(34, 45, 50, 0.9); color: #CFD8DC; box-shadow: 0 2.5px 4.5px rgba(0, 0, 0, 0.34); font-weight: 400; text-align: center; }
 
-.menu { padding: 0; background-color: #28343a; color: rgba(207, 216, 220, 0.87); }
+.menu { padding: 0; background-color: #263238; color: rgba(207, 216, 220, 0.87); }
 
 .popup-menu, .menu { min-width: 0; padding: 0; border-image: url("assets/menu/menu.svg") 9 9 9 9; color: rgba(207, 216, 220, 0.87); }
 
@@ -123,7 +125,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .popup-menu-icon, .menu-icon { icon-size: 16px; }
 
-.popup-menu-boxpointer { -arrow-border-radius: 0; -arrow-background-color: transparent; -arrow-border-width: 0; -arrow-border-color: transparent; -arrow-base: 0; -arrow-rise: 0; -arrow-box-shadow: 0 0 transparent; margin: 0.4em 0.5em 0.5em; border-radius: 2px; border-top: 1px solid #29353b; background-color: #28343a; box-shadow: 0 4.5px 5.5px rgba(0, 0, 0, 0.38); }
+.popup-menu-boxpointer { -arrow-border-radius: 0; -arrow-background-color: transparent; -arrow-border-width: 0; -arrow-border-color: transparent; -arrow-base: 0; -arrow-rise: 0; -arrow-box-shadow: 0 0 transparent; margin: 0.4em 0.5em 0.5em; border-radius: 2px; border-top: 1px solid #263238; background-color: #263238; box-shadow: 0 4.5px 5.5px rgba(0, 0, 0, 0.38); }
 
 .popup-combo-menu { padding: 1em; border: 1px solid rgba(0, 0, 0, 0.13); border-radius: 2px; color: #CFD8DC; background-color: rgba(34, 45, 50, 0.9); }
 
@@ -141,7 +143,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 #panel { font-size: 10pt; height: 28px; width: 32px; color: #CFD8DC; background-color: #13191c; font-weight: 700; }
 
-#panel:highlight { background-color: rgba(121, 134, 203, 0.25); }
+#panel:highlight { background-color: rgba(96, 125, 139, 0.25); }
 
 #panelLeft, .panelLeft { spacing: 4px; }
 
@@ -153,7 +155,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 #panelLeft.vertical, .panelLeft.vertical { padding: 0; spacing: 0; }
 
-#panelRight:dnd, .panelRight:dnd { background-gradient-direction: vertical; background-gradient-start: rgba(96, 125, 139, 0.5); background-gradient-end: rgba(96, 125, 139, 0.5); }
+#panelRight:dnd, .panelRight:dnd { background-gradient-direction: vertical; background-gradient-start: rgba(3, 169, 244, 0.4); background-gradient-end: rgba(3, 169, 244, 0.4); }
 
 #panelRight:ltr, .panelRight:ltr { padding-left: 4px; spacing: 0; }
 
@@ -171,9 +173,9 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .panel-dummy { background-color: rgba(19, 25, 28, 0.4); }
 
-.panel-dummy:entered { background-color: rgba(121, 134, 203, 0.25); }
+.panel-dummy:entered { background-color: rgba(96, 125, 139, 0.25); }
 
-.panel-status-button { height: 22px; -natural-hpadding: 3px; -minimum-hpadding: 3px; border-width: 0; font-weight: 700; color: #CFD8DC; }
+.panel-status-button { -natural-hpadding: 3px; -minimum-hpadding: 3px; border-width: 0; font-weight: 700; color: #CFD8DC; }
 
 .panel-status-button:hover { color: #FFFFFF; }
 
@@ -213,9 +215,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 #overview { spacing: 12px; }
 
+.overview-empty-placeholder { color: #CFD8DC; font-size: 1.5em; }
+
+.window-border { outline: 0 none transparent; border: 2px solid #607D8B; }
+
 .window-caption { -cinnamon-caption-spacing: 12px; spacing: 25px; padding: 7px 8px 8px; border-radius: 2px; color: #CFD8DC; background-color: rgba(34, 45, 50, 0.9); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28); }
 
-.window-caption#selected { spacing: 25px; color: #FFFFFF; background-color: #607D8B; box-shadow: 0 2.5px 4.5px rgba(0, 0, 0, 0.34); }
+.window-caption#selected, .window-caption:focus { spacing: 25px; color: #FFFFFF; background-color: #607D8B; box-shadow: 0 2.5px 4.5px rgba(0, 0, 0, 0.34); }
 
 .workspace-controls { visible-height: 32px; }
 
@@ -325,7 +331,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .switcher-list .item-box:outlined { padding: 6px; border: 2px solid rgba(207, 216, 220, 0.2); }
 
-.switcher-list .item-box:selected { background-color: rgba(121, 134, 203, 0.25); color: #9ba7d2; }
+.switcher-list .item-box:selected { background-color: rgba(96, 125, 139, 0.25); color: #607D8B; }
 
 .switcher-list .thumbnail { width: 256px; }
 
@@ -349,13 +355,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .modal-dialog-button-box { spacing: 0; margin: 0; padding: 14px 10px; border: none; background: none; }
 
-.modal-dialog-button-box .modal-dialog-button { height: 30px; padding-top: 0; padding-bottom: 0; color: rgba(155, 167, 210, 0.87); font-weight: 700; }
+.modal-dialog-button-box .modal-dialog-button { height: 30px; padding-top: 0; padding-bottom: 0; color: rgba(96, 125, 139, 0.87); font-weight: 700; }
 
-.modal-dialog-button-box .modal-dialog-button:hover { color: #9ba7d2; background-color: rgba(121, 134, 203, 0.12); }
+.modal-dialog-button-box .modal-dialog-button:hover { color: #607D8B; background-color: rgba(96, 125, 139, 0.12); }
 
-.modal-dialog-button-box .modal-dialog-button:focus { color: #9ba7d2; }
+.modal-dialog-button-box .modal-dialog-button:focus { color: #607D8B; }
 
-.modal-dialog-button-box .modal-dialog-button:active { color: #9ba7d2; background-color: rgba(121, 134, 203, 0.25); box-shadow: 0 0 transparent; }
+.modal-dialog-button-box .modal-dialog-button:active { color: #607D8B; background-color: rgba(96, 125, 139, 0.25); box-shadow: 0 0 transparent; }
 
 .modal-dialog-button-box .modal-dialog-button:disabled { color: rgba(207, 216, 220, 0.54); }
 
@@ -433,7 +439,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .keyboard-key:grayed { color: rgba(207, 216, 220, 0.54); background-color: #13191c; transition-timing-function: cubic-bezier(0, 0, 0.2, 1); }
 
-.keyboard-subkeys { padding: 0; border-radius: 2px; -arrow-border-radius: 0; -arrow-background-color: transparent; -arrow-border-width: 0; -arrow-border-color: transparent; -arrow-base: 0; -arrow-rise: 0; -boxpointer-gap: 3.999; background-color: #3F51B5; color: #FFFFFF; box-shadow: 0 2.5px 4.5px rgba(0, 0, 0, 0.34); }
+.keyboard-subkeys { padding: 0; border-radius: 2px; -arrow-border-radius: 0; -arrow-background-color: transparent; -arrow-border-width: 0; -arrow-border-color: transparent; -arrow-base: 0; -arrow-rise: 0; -boxpointer-gap: 3.999; background-color: #607D8B; color: #FFFFFF; box-shadow: 0 2.5px 4.5px rgba(0, 0, 0, 0.34); }
+
+.menu-top-box { spacing: 10px; }
+
+.menu-systembuttons-box { padding: 5px 0; }
 
 .menu-favorites-box { padding: 7px; border-radius: 0; border: 0 solid rgba(0, 0, 0, 0.13); background-color: transparent; }
 
@@ -445,7 +455,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .menu-favorites-button { padding: 10px; }
 
-.menu-favorites-button:hover { border-color: transparent; color: #CFD8DC; background-color: rgba(207, 216, 220, 0.12); box-shadow: 0 0 transparent; text-shadow: none; icon-shadow: none; }
+.menu-favorites-button:hover { border-color: transparent; color: #FFFFFF; background-color: rgba(96, 125, 139, 0.8); box-shadow: 0 0 transparent; text-shadow: none; icon-shadow: none; }
 
 .menu-places-box { padding: 7px; }
 
@@ -463,7 +473,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .menu-application-button:highlighted { font-weight: 700; }
 
-.menu-application-button-selected { border-color: transparent; color: #CFD8DC; background-color: rgba(207, 216, 220, 0.12); box-shadow: 0 0 transparent; text-shadow: none; icon-shadow: none; padding: 0 7px; border: 1px solid transparent; }
+.menu-application-button-selected { border-color: transparent; color: #FFFFFF; background-color: rgba(96, 125, 139, 0.8); box-shadow: 0 0 transparent; text-shadow: none; icon-shadow: none; padding: 0 7px; border: 1px solid transparent; }
 
 .menu-application-button-selected:highlighted { font-weight: 700; }
 
@@ -471,7 +481,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .menu-application-button-label:rtl { padding: 6px 5px 7px 0; }
 
-.menu StScrollView.menu-application-button { padding: 0; border-radius: 2px; border: 1px solid rgba(0, 0, 0, 0.13); background-color: #243035; }
+.menu StScrollView.menu-application-button { padding: 0; border-radius: 2px; border: 1px solid rgba(0, 0, 0, 0.13); background-color: #263238; }
 
 .menu StScrollView.menu-application-button .popup-menu-item { padding: 0; spacing: 0; }
 
@@ -489,7 +499,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .menu-category-button { padding: 0 7px; border: 1px solid transparent; color: rgba(207, 216, 220, 0.87); }
 
-.menu-category-button-hover, .menu-category-button-selected { padding: 0 7px; border-radius: 2px; border: 1px solid transparent; background-color: rgba(96, 125, 139, 0.5); color: #607D8B; }
+.menu-category-button-hover, .menu-category-button-selected { padding: 0 7px; border-radius: 2px; border: 1px solid transparent; background-color: rgba(96, 125, 139, 0.8); color: #FFFFFF; }
 
 .menu-category-button-greyed { padding: 0 7px; border: 1px solid transparent; color: rgba(207, 216, 220, 0.28); }
 
@@ -509,13 +519,15 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .menu-search-box:rtl { padding-right: 30px; }
 
-#menu-search-entry { width: 24em; caret-color: #CFD8DC; font-weight: 500; }
+#menu-search-entry { width: 16em; caret-color: #CFD8DC; font-weight: 500; }
 
 .menu-search-entry-icon { icon-size: 16px; color: #CFD8DC; }
 
+.menu-context-menu { padding: 0.5em 1px; }
+
 .info-osd { spacing: 1em; padding: 16px; border-image: url("assets/misc/osd.svg") 9 9 9 9; color: #CFD8DC; text-align: center; font-weight: 700; }
 
-.osd-window { min-width: 64px; min-height: 64px; spacing: 1em; padding: 20px; margin: 32px; border: none; border-radius: 5px; border-image: url("assets/misc/osd.svg") 9 9 9 9; color: #CFD8DC; background: none; font-weight: 700; text-align: center; }
+.osd-window { min-width: 64px; min-height: 64px; spacing: 1em; padding: 20px; border: none; border-radius: 5px; border-image: url("assets/misc/osd.svg") 9 9 9 9; color: #CFD8DC; background: none; font-weight: 700; text-align: center; }
 
 .osd-window .osd-monitor-label { font-size: 30pt; }
 
@@ -531,7 +543,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .window-list-box.vertical { padding: 6px 0 0 0; }
 
-.window-list-box:highlight { background-color: rgba(121, 134, 203, 0.25); }
+.window-list-box:highlight { background-color: rgba(96, 125, 139, 0.25); }
 
 .window-list-item-box { border: 0 none transparent; border-image: none; background-image: none; background-color: rgba(0, 0, 0, 0.01); color: #CFD8DC; box-shadow: 0 0 transparent; font-weight: 400; }
 
@@ -565,9 +577,9 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .panel-top .window-list-item-box StLabel:rtl, .panel-bottom .window-list-item-box StLabel:rtl { padding: 0 0 0 4px; }
 
-.window-list-item-box:progress, .window-list-item-box .progress { background-gradient-start: rgba(121, 134, 203, 0.25); background-gradient-end: rgba(121, 134, 203, 0.25); }
+.window-list-item-box:progress, .window-list-item-box .progress { background-gradient-start: rgba(96, 125, 139, 0.25); background-gradient-end: rgba(96, 125, 139, 0.25); }
 
-.window-list-item-demands-attention { background-gradient-start: rgba(121, 134, 203, 0.25); background-gradient-end: rgba(121, 134, 203, 0.25); color: #FFFFFF; }
+.window-list-item-demands-attention { background-gradient-start: rgba(96, 125, 139, 0.25); background-gradient-end: rgba(96, 125, 139, 0.25); color: #FFFFFF; }
 
 .panel-top .window-list-item-demands-attention { box-shadow: inset 0 2px #607D8B; }
 
@@ -579,6 +591,80 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .window-list-preview { padding: 12px; spacing: 8px; border: none; border-image: url("assets/misc/osd.svg") 9 9 9 9; border-radius: 2px; color: #CFD8DC; background: none; }
 
+.grouped-window-list-thumbnail-label { padding-left: 4px; }
+
+.grouped-window-list-number-label { font-size: 9pt; color: #FFFFFF; font-weight: 700; }
+
+.grouped-window-list-badge { border-radius: 256px; background-color: #000000; }
+
+.panel-top .grouped-window-list-badge { margin-top: 2px; }
+
+.panel-left .grouped-window-list-badge { margin-left: 2px; }
+
+.grouped-window-list-button-label { padding-left: 4px; }
+
+.grouped-window-list-thumbnail-alert { background: rgba(255, 52, 52, 0.3); }
+
+.grouped-window-list-item-box { border: 0 none transparent; border-image: none; background-image: none; background-color: rgba(0, 0, 0, 0.01); color: #CFD8DC; box-shadow: 0 0 transparent; font-weight: 400; text-align: left; }
+
+.panel-top .grouped-window-list-item-box StIcon, .panel-top .grouped-window-list-item-box StBin, .panel-bottom .grouped-window-list-item-box StIcon, .panel-bottom .grouped-window-list-item-box StBin, .panel-left .grouped-window-list-item-box StIcon, .panel-left .grouped-window-list-item-box StBin, .panel-right .grouped-window-list-item-box StIcon, .panel-right .grouped-window-list-item-box StBin { padding: 0; }
+
+.panel-top .grouped-window-list-item-box { spacing: 0; padding: 0; border: 0 none transparent; border-image: none; background-color: rgba(0, 0, 0, 0.01); box-shadow: 0 0 transparent; }
+
+.panel-top .grouped-window-list-item-box:active, .panel-top .grouped-window-list-item-box:checked { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 0 2px rgba(207, 216, 220, 0.2); }
+
+.panel-top .grouped-window-list-item-box:hover, .panel-top .grouped-window-list-item-box:active:hover, .panel-top .grouped-window-list-item-box:focus, .panel-top .grouped-window-list-item-box:active:focus, .panel-top .grouped-window-list-item-box:focus:hover, .panel-top .grouped-window-list-item-box:active:focus:hover { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 0 2px #607D8B; }
+
+.panel-bottom .grouped-window-list-item-box { spacing: 0; padding: 0; border: 0 none transparent; border-image: none; background-color: rgba(0, 0, 0, 0.01); box-shadow: 0 0 transparent; }
+
+.panel-bottom .grouped-window-list-item-box:active, .panel-bottom .grouped-window-list-item-box:checked { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 0 -2px rgba(207, 216, 220, 0.2); }
+
+.panel-bottom .grouped-window-list-item-box:hover, .panel-bottom .grouped-window-list-item-box:active:hover, .panel-bottom .grouped-window-list-item-box:focus, .panel-bottom .grouped-window-list-item-box:active:focus, .panel-bottom .grouped-window-list-item-box:focus:hover, .panel-bottom .grouped-window-list-item-box:active:focus:hover { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 0 -2px #607D8B; }
+
+.panel-left .grouped-window-list-item-box { spacing: 0; padding: 0; border: 0 none transparent; border-image: none; background-color: rgba(0, 0, 0, 0.01); box-shadow: 0 0 transparent; }
+
+.panel-left .grouped-window-list-item-box:active, .panel-left .grouped-window-list-item-box:checked { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 2px 0 rgba(207, 216, 220, 0.2); }
+
+.panel-left .grouped-window-list-item-box:hover, .panel-left .grouped-window-list-item-box:active:hover, .panel-left .grouped-window-list-item-box:focus, .panel-left .grouped-window-list-item-box:active:focus, .panel-left .grouped-window-list-item-box:focus:hover, .panel-left .grouped-window-list-item-box:active:focus:hover { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 2px 0 #607D8B; }
+
+.panel-right .grouped-window-list-item-box { spacing: 0; padding: 0; border: 0 none transparent; border-image: none; background-color: rgba(0, 0, 0, 0.01); box-shadow: 0 0 transparent; }
+
+.panel-right .grouped-window-list-item-box:active, .panel-right .grouped-window-list-item-box:checked { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset -2px 0 rgba(207, 216, 220, 0.2); }
+
+.panel-right .grouped-window-list-item-box:hover, .panel-right .grouped-window-list-item-box:active:hover, .panel-right .grouped-window-list-item-box:focus, .panel-right .grouped-window-list-item-box:active:focus, .panel-right .grouped-window-list-item-box:focus:hover, .panel-right .grouped-window-list-item-box:active:focus:hover { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset -2px 0 #607D8B; }
+
+.grouped-window-list-item-box StLabel { font-weight: 400; }
+
+.panel-top .grouped-window-list-item-box StLabel:ltr, .panel-bottom .grouped-window-list-item-box StLabel:ltr { padding: 0 4px 0 0; }
+
+.panel-top .grouped-window-list-item-box StLabel:rtl, .panel-bottom .grouped-window-list-item-box StLabel:rtl { padding: 0 0 0 4px; }
+
+.grouped-window-list-item-box:progress, .grouped-window-list-item-box .progress { background-gradient-start: rgba(96, 125, 139, 0.25); background-gradient-end: rgba(96, 125, 139, 0.25); }
+
+.grouped-window-list-item-demands-attention { background-gradient-start: rgba(96, 125, 139, 0.25); background-gradient-end: rgba(96, 125, 139, 0.25); color: #FFFFFF; }
+
+.panel-top .grouped-window-list-item-demands-attention { box-shadow: inset 0 2px #607D8B; }
+
+.panel-bottom .grouped-window-list-item-demands-attention { box-shadow: inset 0 -2px #607D8B; }
+
+.panel-left .grouped-window-list-item-demands-attention { box-shadow: inset 2px 0 #607D8B; }
+
+.panel-right .grouped-window-list-item-demands-attention { box-shadow: inset -2px 0 #607D8B; }
+
+.grouped-window-list-thumbnail-menu { padding: 2px; border: none; border-image: url("assets/misc/osd.svg") 9 9 9 9; border-radius: 2px; color: #CFD8DC; background: none; }
+
+.grouped-window-list-thumbnail-menu .item-box { border-radius: 0; background-color: #222d32; }
+
+.grouped-window-list-thumbnail-menu .item-box:outlined { border: 2px solid rgba(207, 216, 220, 0.2); }
+
+.grouped-window-list-thumbnail-menu .item-box:selected { background-color: rgba(96, 125, 139, 0.8); color: #FFFFFF; }
+
+.grouped-window-list-thumbnail-menu .thumbnail { width: 256px; padding-top: 4px; }
+
+.grouped-window-list-thumbnail-menu .thumbnail-box { padding: 2px; spacing: 4px; }
+
+.grouped-window-list-thumbnail-menu .separator { width: 1px; background: rgba(0, 0, 0, 0.13); }
+
 .sound-player { padding: 0 3px; }
 
 .sound-player > StBoxLayout:first-child { padding: 0.4em 1em 0.8em; }
@@ -589,7 +675,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .sound-player > StBoxLayout:first-child StButton:small StIcon { icon-size: 16px; }
 
-.sound-player-generic-coverart { background-color: #243035; }
+.sound-player-generic-coverart { background-color: #263238; }
 
 .sound-player-overlay { width: 290px; height: 70px; padding: 0.4em 1em 1.2em; spacing: 5px; border: 0 solid #222d32; border-bottom-width: 1px; color: #CFD8DC; background: rgba(34, 45, 50, 0.9); }
 
@@ -603,7 +689,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .sound-player-overlay StLabel { padding: 0 5px 1px; }
 
-.sound-player .slider { height: 4px; padding: 0; border: 0 none transparent; -slider-height: 4px; -slider-background-color: #384457; -slider-border-color: transparent; -slider-active-background-color: #607D8B; -slider-active-border-color: transparent; -slider-border-width: 0; -slider-handle-radius: 0; }
+.sound-player .slider { height: 4px; padding: 0; border: 0 none transparent; -slider-height: 4px; -slider-background-color: #2f4e51; -slider-border-color: transparent; -slider-active-background-color: #607D8B; -slider-active-border-color: transparent; -slider-border-width: 0; -slider-handle-radius: 0; }
 
 #workspaceSwitcher { spacing: 0; padding: 3px; }
 
@@ -612,6 +698,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 .panel-left .workspace-switcher, .panel-right .workspace-switcher { padding-top: 3px; padding-bottom: 3px; }
 
 .workspace-button { width: 20px; height: 10px; color: #CFD8DC; background-color: rgba(0, 0, 0, 0.01); transition-duration: 0.2s; }
+
+.vertical .workspace-button { width: 10px; height: 20px; }
 
 .workspace-button:hover { color: #FFFFFF; }
 
@@ -635,13 +723,15 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .workspace-graph { padding: 3px; spacing: 3px; }
 
+.vertical .workspace-graph { padding: 0; }
+
 .workspace-graph .workspace { border: 1px solid rgba(0, 0, 0, 0.4); background-gradient-direction: none; background-color: rgba(0, 0, 0, 0.2); }
 
 .workspace-graph .workspace:active { border: 1px solid #607D8B; background-gradient-direction: none; }
 
 .workspace-graph .workspace .windows { -active-window-background: #415660; -active-window-border: rgba(0, 0, 0, 0.8); -inactive-window-background: #415660; -inactive-window-border: rgba(0, 0, 0, 0.8); }
 
-.workspace-graph .workspace:active .windows { -active-window-background: #4b646f; -active-window-border: rgba(0, 0, 0, 0.8); -inactive-window-background: #2c3b41; -inactive-window-border: rgba(0, 0, 0, 0.8); }
+.workspace-graph .workspace:active .windows { -active-window-background: #4b646f; -active-window-border: rgba(0, 0, 0, 0.8); -inactive-window-background: #263238; -inactive-window-border: rgba(0, 0, 0, 0.8); }
 
 #panel-launchers-box { padding: 0 7px; }
 
@@ -699,11 +789,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .applet-separator-line-vertical { height: 1px; background: rgba(207, 216, 220, 0.2); }
 
-.applet-box { color: #CFD8DC; text-shadow: none; }
+.applet-box { color: #CFD8DC; text-shadow: none; text-align: center; }
 
 .applet-box:hover, .applet-box:checked { color: #FFFFFF; background-color: rgba(0, 0, 0, 0.01); }
 
-.applet-box:highlight { background-color: rgba(121, 134, 203, 0.25); }
+.applet-box:highlight { background-color: rgba(96, 125, 139, 0.25); }
 
 .panel-top .applet-box { padding: 0 6px; spacing: 2px; }
 
@@ -741,13 +831,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .desklet-header { font-size: 10pt; padding: 12px; padding-bottom: 6px; border-image: url("assets/misc/desklet-header.svg") 9 9 9 9; color: #CFD8DC; }
 
-.desklet-drag-placeholder { border: 2px solid #607D8B; background-color: rgba(121, 134, 203, 0.8); }
+.desklet-drag-placeholder { border: 2px solid #607D8B; background-color: rgba(96, 125, 139, 0.8); }
 
-.desklet:highlight, .desklet:highlight-with-borders, .desklet:highlight-with-borders-and-header { background-color: rgba(121, 134, 203, 0.25); }
+.desklet:highlight, .desklet:highlight-with-borders, .desklet:highlight-with-borders-and-header { background-color: rgba(96, 125, 139, 0.25); }
 
 .photoframe-box { padding: 12px; padding-bottom: 16px; border-image: url("assets/misc/bg.svg") 9 9 9 9; color: #CFD8DC; }
 
-.photoframe-box:highlight { background-color: rgba(121, 134, 203, 0.25); }
+.photoframe-box:highlight { background-color: rgba(96, 125, 139, 0.25); }
 
 .about-content { width: 550px; height: 250px; spacing: 8px; padding-bottom: 10px; }
 
@@ -757,7 +847,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .about-icon { padding-right: 20px; padding-bottom: 14px; }
 
-.about-scrollBox { padding: 4px; padding-right: 0; border: 1px solid rgba(0, 0, 0, 0.13); border-radius: 0; background-color: #29353b; }
+.about-scrollBox { padding: 4px; padding-right: 0; border: 1px solid rgba(0, 0, 0, 0.13); border-radius: 0; background-color: #263238; }
 
 .about-scrollBox-innerBox { padding: 1.2em; spacing: 1.2em; }
 
@@ -785,7 +875,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .flashspot { background-color: #FFFFFF; }
 
-.tile-preview, .tile-preview.snap, .tile-hud, .tile-hud.snap { border: 1px solid #607D8B; border-radius: 0; background-color: rgba(96, 125, 139, 0.5); }
+.tile-preview, .tile-preview.snap, .tile-hud, .tile-hud.snap { border: 1px solid #607D8B; border-radius: 0; background-color: rgba(96, 125, 139, 0.2); }
 
 .xkcd-box { padding: 6px; border: none; border-radius: 0; background-color: transparent; }
 
@@ -793,7 +883,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .slingshot.popup-menu-content { margin: 0 3px; padding: 0.45em 0; }
 
-.slingshot .button { padding: 4px; border-radius: 2px; border-color: #212B30; background-color: #2f3d44; box-shadow: 0 0 transparent; }
+.slingshot .button { padding: 4px; border-radius: 2px; border-color: #212B30; background-color: #263238; box-shadow: 0 0 transparent; }
 
 .slingshot .button:hover { background-color: rgba(207, 216, 220, 0.12); color: #CFD8DC; }
 
@@ -805,15 +895,15 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .slingshot .sidebar .button:hover, .slingshot .button.app:hover { background-color: rgba(207, 216, 220, 0.12); color: #CFD8DC; }
 
-.slingshot .sidebar .button:checked, .slingshot .sidebar .button:checked:hover, .slingshot .sidebar .button:active:checked, .slingshot .sidebar .button:active:checked:hover, .slingshot .button.app:checked, .slingshot .button.app:checked:hover, .slingshot .button.app:active:checked, .slingshot .button.app:active:checked:hover { border-color: transparent; background-color: rgba(96, 125, 139, 0.5); color: #607D8B; }
+.slingshot .sidebar .button:checked, .slingshot .sidebar .button:checked:hover, .slingshot .sidebar .button:active:checked, .slingshot .sidebar .button:active:checked:hover, .slingshot .button.app:checked, .slingshot .button.app:checked:hover, .slingshot .button.app:active:checked, .slingshot .button.app:active:checked:hover { border-color: transparent; background-color: rgba(96, 125, 139, 0.25); color: #607D8B; }
 
-.slingshot .entry { min-height: 24px; padding: 0 8px; border-radius: 2px; border-color: transparent; background-color: #2f3d44; color: rgba(207, 216, 220, 0.87); caret-color: rgba(207, 216, 220, 0.87); box-shadow: inset 0 0 0 1px #212B30; }
+.slingshot .entry { min-height: 24px; padding: 0 8px; border-radius: 2px; border-color: transparent; background-color: #263238; color: rgba(207, 216, 220, 0.87); caret-color: rgba(207, 216, 220, 0.87); box-shadow: inset 0 0 0 1px #212B30; }
 
 .slingshot .entry:ltr { margin-right: 3px; }
 
 .slingshot .entry:rtl { margin-left: 3px; }
 
-.slingshot .entry:focus, .slingshot .entry:focus:hover { border-color: transparent; background-color: #2f3d44; color: #CFD8DC; caret-color: #CFD8DC; box-shadow: inset 0 0 0 1px #607D8B; }
+.slingshot .entry:focus, .slingshot .entry:focus:hover { border-color: transparent; background-color: #263238; color: #CFD8DC; caret-color: #CFD8DC; box-shadow: inset 0 0 0 1px #607D8B; }
 
 .slingshot .entry:insensitive { border-color: transparent; background-color: rgba(0, 0, 0, 0.01); color: rgba(207, 216, 220, 0.28); box-shadow: inset 0 0 0 1px #212B30; }
 
@@ -855,53 +945,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .applet-box .window-icon-list-numlabel { font-size: 9pt; color: #FFFFFF; font-weight: 700; }
 
-
-.grouped-window-list-thumbnail-label { padding-left: 4px; }
-.grouped-window-list-number-label { font-size: 9pt; color: #FFFFFF; font-weight: 700; }
-.grouped-window-list-badge { border-radius: 256px; background-color: #000000; }
-.panel-top .grouped-window-list-badge { margin-top: 2px; }
-.panel-left .grouped-window-list-badge { margin-left: 2px; }
-.grouped-window-list-button-label { padding-left: 4px; }
-.grouped-window-list-thumbnail-alert { background: rgba(255, 52, 52, 0.3); }
-.grouped-window-list-item-box { border: 0 none transparent; border-image: none; background-image: none; background-color: rgba(0, 0, 0, 0.01); color: #CFD8DC; box-shadow: 0 0 transparent; font-weight: 400; text-align: left; }
-.panel-top .grouped-window-list-item-box StIcon, .panel-top .grouped-window-list-item-box StBin, .panel-bottom .grouped-window-list-item-box StIcon, .panel-bottom .grouped-window-list-item-box StBin, .panel-left .grouped-window-list-item-box StIcon, .panel-left .grouped-window-list-item-box StBin, .panel-right .grouped-window-list-item-box StIcon, .panel-right .grouped-window-list-item-box StBin { padding: 0; }
-.panel-top .grouped-window-list-item-box { spacing: 0; padding: 0; border: 0 none transparent; border-image: none; background-color: rgba(0, 0, 0, 0.01); box-shadow: 0 0 transparent; }
-.panel-top .grouped-window-list-item-box:active, .panel-top .grouped-window-list-item-box:checked { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 0 2px rgba(207, 216, 220, 0.2); }
-.panel-top .grouped-window-list-item-box:hover, .panel-top .grouped-window-list-item-box:active:hover, .panel-top .grouped-window-list-item-box:focus, .panel-top .grouped-window-list-item-box:active:focus, .panel-top .grouped-window-list-item-box:focus:hover, .panel-top .grouped-window-list-item-box:active:focus:hover { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 0 2px #607D8B; }
-.panel-bottom .grouped-window-list-item-box { spacing: 0; padding: 0; border: 0 none transparent; border-image: none; background-color: rgba(0, 0, 0, 0.01); box-shadow: 0 0 transparent; }
-.panel-bottom .grouped-window-list-item-box:active, .panel-bottom .grouped-window-list-item-box:checked { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 0 -2px rgba(207, 216, 220, 0.2); }
-.panel-bottom .grouped-window-list-item-box:hover, .panel-bottom .grouped-window-list-item-box:active:hover, .panel-bottom .grouped-window-list-item-box:focus, .panel-bottom .grouped-window-list-item-box:active:focus, .panel-bottom .grouped-window-list-item-box:focus:hover, .panel-bottom .grouped-window-list-item-box:active:focus:hover { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 0 -2px #607D8B; }
-.panel-left .grouped-window-list-item-box { spacing: 0; padding: 0; border: 0 none transparent; border-image: none; background-color: rgba(0, 0, 0, 0.01); box-shadow: 0 0 transparent; }
-.panel-left .grouped-window-list-item-box:active, .panel-left .grouped-window-list-item-box:checked { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 2px 0 rgba(207, 216, 220, 0.2); }
-.panel-left .grouped-window-list-item-box:hover, .panel-left .grouped-window-list-item-box:active:hover, .panel-left .grouped-window-list-item-box:focus, .panel-left .grouped-window-list-item-box:active:focus, .panel-left .grouped-window-list-item-box:focus:hover, .panel-left .grouped-window-list-item-box:active:focus:hover { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset 2px 0 #607D8B; }
-.panel-right .grouped-window-list-item-box { spacing: 0; padding: 0; border: 0 none transparent; border-image: none; background-color: rgba(0, 0, 0, 0.01); box-shadow: 0 0 transparent; }
-.panel-right .grouped-window-list-item-box:active, .panel-right .grouped-window-list-item-box:checked { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset -2px 0 rgba(207, 216, 220, 0.2); }
-.panel-right .grouped-window-list-item-box:hover, .panel-right .grouped-window-list-item-box:active:hover, .panel-right .grouped-window-list-item-box:focus, .panel-right .grouped-window-list-item-box:active:focus, .panel-right .grouped-window-list-item-box:focus:hover, .panel-right .grouped-window-list-item-box:active:focus:hover { background-color: rgba(0, 0, 0, 0.01); box-shadow: inset -2px 0 #607D8B; }
-.grouped-window-list-item-box StLabel { font-weight: 400; }
-.panel-top .grouped-window-list-item-box StLabel:ltr, .panel-bottom .grouped-window-list-item-box StLabel:ltr { padding: 0 4px 0 0; }
-.panel-top .grouped-window-list-item-box StLabel:rtl, .panel-bottom .grouped-window-list-item-box StLabel:rtl { padding: 0 0 0 4px; }
-.grouped-window-list-item-box:progress, .grouped-window-list-item-box .progress { background-gradient-start: rgba(96, 125, 139, 0.5); background-gradient-end: rgba(96, 125, 139, 0.5); }
-.grouped-window-list-item-demands-attention { background-gradient-start: rgba(96, 125, 139, 0.5); background-gradient-end: rgba(96, 125, 139, 0.5); color: #FFFFFF; }
-.panel-top .grouped-window-list-item-demands-attention { box-shadow: inset 0 2px #607D8B; }
-.panel-bottom .grouped-window-list-item-demands-attention { box-shadow: inset 0 -2px #607D8B; }
-.panel-left .grouped-window-list-item-demands-attention { box-shadow: inset 2px 0 #607D8B; }
-.panel-right .grouped-window-list-item-demands-attention { box-shadow: inset -2px 0 #607D8B; }
-.grouped-window-list-thumbnail-menu { padding: 2px; border: none; border-image: url("assets/misc/osd.svg") 9 9 9 9; border-radius: 2px; color: #CFD8DC; background: none; }
-.grouped-window-list-thumbnail-menu .item-box { border-radius: 0; background-color: #222d32; }
-.grouped-window-list-thumbnail-menu .item-box:outlined { border: 2px solid rgba(207, 216, 220, 0.2); }
-.grouped-window-list-thumbnail-menu .item-box:selected { background-color: #607D8B; color: #607D8B; }
-.grouped-window-list-thumbnail-menu .thumbnail { width: 256px; padding-top: 4px; }
-.grouped-window-list-thumbnail-menu .thumbnail-box { padding: 2px; spacing: 4px; }
-.grouped-window-list-thumbnail-menu .separator { width: 1px; background: rgba(0, 0, 0, 0.09); }
-
-
 StBin.popup-menu StBoxLayout.switcher-list, StBin.menu StBoxLayout.switcher-list { border-radius: 0; }
 
 StBin.popup-menu StBoxLayout.switcher-list .item-box, StBin.menu StBoxLayout.switcher-list .item-box { border-radius: 0; background-color: #222d32; }
 
 StBin.popup-menu StBoxLayout.switcher-list .item-box:outlined, StBin.popup-menu StBoxLayout.switcher-list .item-box:selected, StBin.menu StBoxLayout.switcher-list .item-box:outlined, StBin.menu StBoxLayout.switcher-list .item-box:selected { border-radius: 2px; }
 
-StBin.popup-menu StBoxLayout.switcher-list .item-box:selected, StBin.menu StBoxLayout.switcher-list .item-box:selected { background-color: #384358; }
+StBin.popup-menu StBoxLayout.switcher-list .item-box:selected, StBin.menu StBoxLayout.switcher-list .item-box:selected { background-color: #263238; }
 
 StBin.popup-menu StBoxLayout.switcher-list .item-box > StBoxLayout:ltr, StBin.menu StBoxLayout.switcher-list .item-box > StBoxLayout:ltr { margin: 6px 0 0 6px; }
 

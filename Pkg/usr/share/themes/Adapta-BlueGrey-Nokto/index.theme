@@ -1,13 +1,13 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Adapta-Nokto
+Name=Adapta-BlueGrey-Nokto
 Comment=An adaptive Gtk+ theme based on Material Design with dark variant
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 Type=X-GNOME-Metatheme
-GtkTheme=Adapta-Nokto
-MetacityTheme=Adapta
+GtkTheme=Adapta-BlueGrey-Nokto
+MetacityTheme=Adapta-BlueGrey-Nokto
 IconTheme=Adwaita
 CursorTheme=Adwaita
 CursorSize=24
