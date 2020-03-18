@@ -13,6 +13,14 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - The color of the selection in cinnamon has a strong tone, in the menu, with selection of favorites, categories and apps, and, in the panel, with the selection of instances of apps!
  - New visual for close button in gtk-3.0, gtk-3.22, metacity and xfwm4!
 
+## Suported DEs
+ - Xfce4
+ - Cinnamon
+ - Mate
+ - Gnome
+ - Budgie
+ - LXDE
+
 ## Available colors (in light and nokto versions)
 
  - Blue

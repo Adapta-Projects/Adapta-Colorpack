@@ -6,4 +6,6 @@ Depends: gtk2-engines-pixbuf (>= 2.24.30), gtk2-engines-murrine (>= 0.98.1), lib
 Section: x11
 Priority: optional
 Homepage: https://github.com/Joshaby/Adapta-Colorpack
-Description:
+Description: Modified version of Adapta Theme created by Adapta Project
+                        This theme use the ideia of Adapta Colorpack created by Ivankra, the main objective of this theme is the correction of missing things in stock and Ivankra version!
+
