@@ -1,5 +1,5 @@
 Package: Adapta-Colorpack
-Version: 202003172137
+Version: 202003181549
 Architecture: all
 Maintainer: José Henrique
 Depends: gtk2-engines-pixbuf (>= 2.24.30), gtk2-engines-murrine (>= 0.98.1), libgtk2.0-common (>= 2.24.30), libgtk-3-common (>= 3.20.0)

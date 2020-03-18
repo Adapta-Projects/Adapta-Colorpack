@@ -21,6 +21,6 @@ fi
 echo "User: "$USER
 echo "Local of instalation: "$LOCAL
 
-cp -rf $PREFIX/Adapta* $LOCAL
+cp -prf $PREFIX/Adapta* $LOCAL
 
 echo -e "\nInstallation complete!"
