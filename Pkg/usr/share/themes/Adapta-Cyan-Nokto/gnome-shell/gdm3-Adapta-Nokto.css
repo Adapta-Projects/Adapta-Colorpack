@@ -263,7 +263,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .popup-menu .popup-sub-menu .popup-menu-item > StLabel:first-child:rtl { margin-right: 16px; padding-right: 18.5px; }
 
-.popup-menu .popup-menu-content { padding: 0.3em 0; }
+.popup-menu .popup-menu-content { padding: 1.4em 1.2em; }
 
 .popup-menu .popup-menu-item { spacing: 8px; color: rgba(207, 216, 220, 0.87); font-weight: 400; transition-duration: 0s; }
 
@@ -389,7 +389,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .tile-preview-left.on-primary, .tile-preview-left.on-primary.tile-preview-right, .tile-preview-right.on-primary { border-radius: 0; }
 
-#panel { min-height: 30px; height: 2.1em; background-color: rgba(19, 25, 28, 0.54); box-shadow: 0 0 transparent; font-weight: 700; transition-timing-function: cubic-bezier(0, 0, 0.2, 1); transition-duration: 0.4s; }
+#panel { min-height: 30px; height: 2.1em; background-color: #13191c; box-shadow: 0 0 transparent; font-weight: 700; transition-timing-function: cubic-bezier(0, 0, 0.2, 1); transition-duration: 0.4s; }
 
 #panel:overview, #panel.unlock-screen, #panel.login-screen, #panel.lock-screen { background-color: rgba(19, 25, 28, 0.01); box-shadow: 0 0 transparent; transition-timing-function: cubic-bezier(0, 0, 0.2, 1); transition-duration: 0.4s; }
 
