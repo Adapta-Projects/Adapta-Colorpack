@@ -1,4 +1,5 @@
-# Adapta Colorpack
+<img src="Images/logo.png" alt="Logo" align="right" /> Adapta Colorpack
+=====
 
 Modified version of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta Theme</a> created by <a href="https://github.com/adapta-project">Adapta Project</a>
 
@@ -29,6 +30,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - Cyan
  - Amber
  - Teal
+ - Indigo
 
 ## Instalation
 
