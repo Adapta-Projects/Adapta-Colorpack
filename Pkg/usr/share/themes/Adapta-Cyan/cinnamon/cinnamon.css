@@ -3,7 +3,7 @@
 /* BACKGROUND COLOR IN HTML #FAFBFC*/
 * { transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.2s; }
 
-stage { font-size: 10pt; color: #263238; font-family: Roboto, Sans-Serif; font-weight: 400; }
+stage { font-size: 10pt; color: #263238; font-weight: 400; }
 
 .label-shadow { color: transparent; }
 
