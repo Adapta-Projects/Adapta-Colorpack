@@ -1,13 +1,13 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Adapta-Cyan
+Name=Adapta-Green
 Comment=An adaptive Gtk+ theme based on Material Design
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 Type=X-GNOME-Metatheme
-GtkTheme=Adapta-Cyan
-MetacityTheme=Adapta-Cyan
+GtkTheme=Adapta-Green
+MetacityTheme=Adapta-Green
 IconTheme=Adwaita
 CursorTheme=Adwaita
 CursorSize=24
