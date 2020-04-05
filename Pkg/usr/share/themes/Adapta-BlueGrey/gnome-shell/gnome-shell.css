@@ -5,7 +5,7 @@
 
 *:focus { transition-duration: 0s; }
 
-stage { font-size: 10pt; font-family: Roboto, Noto Sans, Sans-Serif; color: #263238; }
+stage { font-size: 10pt; color: #263238; }
 
 .button { border-color: transparent; color: rgba(38, 50, 56, 0.87); background-color: transparent; box-shadow: 0 0 transparent; text-shadow: none; icon-shadow: none; padding: 7px 16px 8px; border-radius: 2px; border-width: 0; font-weight: 500; }
 
