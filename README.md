@@ -14,7 +14,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - The color of the selection in cinnamon has a strong tone, in the menu, with selection of favorites, categories and apps, and, in the panel, with the selection of instances of apps!
  - New visual for close button in gtk-3.0, gtk-3.22, metacity and xfwm4!
  - The theme now use the system font(In cinnamon and gnome! Where to use a roboto and sans font, not fonts used throughout the system!)!
- - Correction in the colors of the panel, its buttons and colors in the lougout window! (For xfce 4.14)
+ - Correction in the colors of the panel, its buttons and colors in the lougout window, for xfce 4.14!
 
 ## Suported DEs
  - Xfce4
