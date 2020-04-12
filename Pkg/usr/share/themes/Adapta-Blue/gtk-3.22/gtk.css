@@ -9,6 +9,28 @@
   66% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.12) 100%, transparent 0%), image(alpha(currentColor, 0.12)); }
   100% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0) 100%, transparent 0%), image(alpha(currentColor, 0.12)); } }
 
+.xfsm-logout-dialog.background { background-color: #FAFBFC; }
+
+.xfsm-logout-label { color: #13191c; }
+
+.tasklist>*>box { color: #FAFBFC; }
+
+.tasklist .toggle { background-color: #13191c; }
+
+.tasklist .toggle:active { background-color: #2196F3;}
+
+.tasklist button:hover { background-color: #2196F3;}
+
+.tasklist button:active { background-color: #2196F3; border-radius: 0;}
+
+.tasklist button:checked { background-color: #2196F3;}
+
+.xfce4-panel { background-color: #13191c; color: #13191c; }
+
+.xfce4-panel.background { background-color: #13191c; }
+
+#clock-button { color: #FAFBFC; }     
+
 entry, spinbutton:not(.vertical), entry.flat, spinbutton.flat:not(.vertical), .linked > entry, .linked.vertical > entry, combobox, combobox entry.combo, #MozillaGtkWidget.background > widget > entry { border: 1px solid #e9ebeb; border-image: none; background-color: #FAFBFC; color: rgba(38, 50, 56, 0.87); box-shadow: none; }
 
 entry:focus, spinbutton:focus:not(.vertical), entry.flat:focus, spinbutton.flat:focus:not(.vertical), .linked > entry:focus, .linked.vertical > entry:focus, combobox entry.combo:focus, #MozillaGtkWidget.background > widget > entry:focus { border: 1px solid #2196F3; border-image: none; background-color: #FAFBFC; color: #263238; box-shadow: none; }

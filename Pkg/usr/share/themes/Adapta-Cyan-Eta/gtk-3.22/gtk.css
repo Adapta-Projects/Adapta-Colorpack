@@ -21,7 +21,7 @@
 
 .tasklist button:hover { background-color: #00BCD4;}
 
-.tasklist button:active { background-color: #00BCD4;}
+.tasklist button:active { background-color: #00BCD4; border-radius: 0;}
 
 .tasklist button:checked { background-color: #00BCD4;}
 
