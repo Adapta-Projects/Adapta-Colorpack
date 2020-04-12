@@ -14,7 +14,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - The color of the selection in cinnamon has a strong tone, in the menu, with selection of favorites, categories and apps, and, in the panel, with the selection of instances of apps!
  - New visual for close button in gtk-3.0, gtk-3.22, metacity and xfwm4!
  - The theme now use the system font(In cinnamon and gnome! Where to use a roboto and sans font, not fonts used throughout the system!)!
- - Correction in the colors of the panel, its buttons and colors in the lougout window!
+ - Correction in the colors of the panel, its buttons and colors in the lougout window! (For xfce 4.14)
 
 ## Suported DEs
  - Xfce4
@@ -24,7 +24,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - Budgie
  - LXDE
 
-## Available colors (in light and nokto versions)
+## Available colors (In normal, nokto, eta and nokto-eta versions)
 
  - Blue
  - Bluegrey
@@ -34,22 +34,25 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - Teal
  - Indigo
  - Green
- 
-Eta version of the themes are still under development!
+ - Red
 
 ## Instalation
 
 For Debian, Ubuntu or distribution based on them, use the deb file in <a href="https://github.com/Joshaby/Adapta-Colorpack/releases">Adapta Releases</a>, otherwise, run the Install.sh file!
 
+## Note
+
+For Xfce4 and Mate users, use the eta or nokto-eta versions of themes!
+
 ## Images
 
 ![image](Images/image.png)
-
+#### Normal version
 ![image](Images/image1.png)
-
 ![image](Images/image2.png)
-
+#### Nokto version
 ![image](Images/image3.png)
+![image](Images/image4.png)
 
 ## License
 
