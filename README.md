@@ -15,6 +15,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - New visual for close button in gtk-3.0, gtk-3.22, metacity and xfwm4!
  - The theme now use the system font(In cinnamon and gnome! Where to use a roboto and sans font, not fonts used throughout the system!)!
  - Correction in the colors of the panel, its buttons and colors in the lougout window, for xfce 4.14!
+ - New layout for Popup menus in gnome!
 
 ## Suported DEs
  - Xfce4
