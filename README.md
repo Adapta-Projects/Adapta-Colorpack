@@ -1,6 +1,13 @@
 <img src="Images/logo.png" alt="Logo" align="right" /> Adapta Colorpack
 =====
 
+<p align="center">
+  <img src="https://img.shields.io/github/release/Joshaby/Adapta-Colorpack?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/Joshaby/Adapta-Colorpack?color=violet&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/Joshaby/Adapta-Colorpack?color=teal&style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/Joshaby/Adapta-Colorpack?style=for-the-badge">
+</p>
+
 Modified version of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta Theme</a> created by <a href="https://github.com/adapta-project">Adapta Project</a>
 
 This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta Colorpack</a> created by <a href="https://github.com/ivankra">Ivankra</a>, the main objective of this theme is the correction of missing things in stock and Ivankra version!
