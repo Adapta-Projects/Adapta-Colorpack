@@ -26,7 +26,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
 
 ## Suported DEs
  - Xfce4
- - <a href="Markdown/Cinnamon.md">Cinnamon</a> 
+ - <a href="Markdown/Cinnamon">Cinnamon</a> 
  - Mate
  - Gnome
  - Budgie
