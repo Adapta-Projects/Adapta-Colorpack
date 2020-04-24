@@ -26,7 +26,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
 
 ## Suported DEs
  - Xfce4
- - Cinnamon
+ - <a href="Markdown/Cinnamon.md">Cinnamon</a> 
  - Mate
  - Gnome
  - Budgie
@@ -52,16 +52,6 @@ For Debian, Ubuntu or distribution based on them, use the deb file in <a href="h
 ## Note
 
 For Xfce4 and Mate users, use the eta or nokto-eta versions of themes!
-
-## Images
-
-![image](Images/image.png)
-#### Normal version
-![image](Images/image1.png)
-![image](Images/image2.png)
-#### Nokto version
-![image](Images/image3.png)
-![image](Images/image4.png)
 
 ## License
 
