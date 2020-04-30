@@ -44,30 +44,33 @@
   background-color: #13191c;
 }
 
-.tasklist .toggle:active {
+.tasklist .toggle:active, .tasklist button:hover, .tasklist button:active, .tasklist button:checked {
   background-color: #9C27B0;
 }
 
-.tasklist button:hover {
-  background-color: #9C27B0;
-}
-
-.tasklist button:active {
-  background-color: #9C27B0;
-  border-radius: 0;
-}
-
-.tasklist button:checked {
-  background-color: #9C27B0;
-}
-
-.xfce4-panel {
+.xfce4-panel, .xfce4-panel.background {
   background-color: #13191c;
   color: #13191c;
 }
 
-.xfce4-panel.background {
-  background-color: #13191c;
+.xfce4-panel button, .xfce4-panel button.flat, .xfce4-panel.panel button, .xfce4-panel.panel button.flat {
+  color: #FAFBFC;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.xfce4-panel button:hover:not(:active):not(:checked), .xfce4-panel button:checked {
+  color: #FAFBFC;
+}
+
+.xfce4-panel button:checked label, .xfce4-panel button:checked image {
+  color: inherit;
+}
+
+.xfce4-panel button:active {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #FAFBFC;
 }
 
 #clock-button {

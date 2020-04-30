@@ -1,6 +1,8 @@
 <img src="Images/logo.png" alt="Logo" align="right" /> Adapta Colorpack
 =====
 
+<img src="Images/image.svg" align="center" />
+
 <p align="center">
   <img src="https://img.shields.io/github/release/Joshaby/Adapta-Colorpack?color=red&style=for-the-badge">
   <img src="https://img.shields.io/github/issues/Joshaby/Adapta-Colorpack?color=violet&style=for-the-badge">
