@@ -25,9 +25,10 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - The theme now use the system font(In cinnamon and gnome! Where to use a roboto and sans font, not fonts used throughout the system!)!
  - Correction in the colors of the panel, its buttons and colors in the lougout window, for xfce 4.14!
  - New layout for Popup menus in gnome!
+ - Fixed double X button(button for close aplication) in open aplications in activies in Gnome!
 
 ## Suported DEs
- - Xfce4
+ - <a href="Markdown/Xfce/Xfce.md">Xfce</a>
  - <a href="Markdown/Cinnamon/Cinnamon.md">Cinnamon</a> 
  - Mate
  - <a href="Markdown/Gnome/Gnome.md">Gnome</a>
@@ -47,6 +48,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - Red
  - Purple
  - Grey
+ - Pink
 
 ## Instalation
 
@@ -55,6 +57,8 @@ For Debian, Ubuntu or distribution based on them, use the deb file in <a href="h
 ## Note
 
 For Xfce4 and Mate users, use the eta or nokto-eta versions of themes!
+
+For Xfce 4.14 user, disable the option "Show flat buttons" in window button, in panel!
 
 ## License
 
