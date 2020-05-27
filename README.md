@@ -50,6 +50,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - Grey
  - Lime
  - Pink
+ - Brown
 
 ## Instalation
 
