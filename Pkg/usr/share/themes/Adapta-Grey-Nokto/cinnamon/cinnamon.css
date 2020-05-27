@@ -1742,7 +1742,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .panel-bottom .grouped-window-list-item-box:active, .panel-bottom .grouped-window-list-item-box:checked {
     background-color: rgba(0, 0, 0, 0.01);
-    box-shadow: inset 0 -2px rgba(207, 216, 220, 0.2);
+    box-shadow: inset 0 -2px rgba(207, 216, 220, 0.35);
 }
 
 .panel-bottom .grouped-window-list-item-box:hover, .panel-bottom .grouped-window-list-item-box:active:hover, .panel-bottom .grouped-window-list-item-box:focus, .panel-bottom .grouped-window-list-item-box:active:focus, .panel-bottom .grouped-window-list-item-box:focus:hover, .panel-bottom .grouped-window-list-item-box:active:focus:hover {
