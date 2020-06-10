@@ -29,10 +29,10 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
 
 ## Suported DEs
  - <a href="Markdown/Xfce/Xfce.md">Xfce</a>
- - <a href="Markdown/Cinnamon/Cinnamon.md">Mate</a> 
- - <a href="Markdown/MATE/MATE.md">Cinnamon</a>
+ - <a href="Markdown/Cinnamon/Cinnamon.md">Cinnamon</a> 
+ - <a href="Markdown/MATE/MATE.md">MATE</a>
  - <a href="Markdown/Gnome/Gnome.md">Gnome</a>
- - Budgie
+ - BudgieS
  - LXDE
 
 ## Available colors (In normal, nokto, eta and nokto-eta versions)
