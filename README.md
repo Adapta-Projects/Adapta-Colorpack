@@ -29,8 +29,8 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
 
 ## Suported DEs
  - <a href="Markdown/Xfce/Xfce.md">Xfce</a>
- - <a href="Markdown/Cinnamon/Cinnamon.md">Cinnamon</a> 
- - Mate
+ - <a href="Markdown/Cinnamon/Cinnamon.md">Mate</a> 
+ - <a href="Markdown/MATE/MATE.md">Cinnamon</a>
  - <a href="Markdown/Gnome/Gnome.md">Gnome</a>
  - Budgie
  - LXDE
@@ -39,7 +39,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
 
  - Blue
  - Bluegrey
- - Deeporange
+ - DeepOrange
  - Cyan
  - Amber
  - Teal
@@ -51,6 +51,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - Lime
  - Pink
  - Brown
+ - DeepPurple
 
 ## Instalation
 
@@ -61,6 +62,8 @@ For Debian, Ubuntu or distribution based on them, use the deb file in <a href="h
 For Xfce4 and Mate users, use the eta or nokto-eta versions of themes!
 
 For Xfce 4.14 user, disable the option "Show flat buttons" in window button, in panel!
+
+For MATE users, to have a non-transparent panel, use color # 13191C!
 
 ## License
 
