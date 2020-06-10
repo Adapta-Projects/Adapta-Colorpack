@@ -1,4 +1,4 @@
-Preview (It was not possible to take a screenshot with my open)
+Preview (It was not possible to take a screenshot with the menu open)
 
 <p align="center">
   <img src=MATE.png>
