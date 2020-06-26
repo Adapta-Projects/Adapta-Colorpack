@@ -32,7 +32,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - <a href="Markdown/Cinnamon/Cinnamon.md">Cinnamon</a> 
  - <a href="Markdown/MATE/MATE.md">MATE</a>
  - <a href="Markdown/Gnome/Gnome.md">Gnome</a>
- - BudgieS
+ - Budgie
  - LXDE
 
 ## Available colors (In normal, nokto, eta and nokto-eta versions)
@@ -52,6 +52,7 @@ This theme use the ideia of <a href="https://github.com/adapta-project/adapta-gt
  - Pink
  - Brown
  - DeepPurple
+ - Orange
 
 ## Instalation
 
